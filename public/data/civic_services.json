@@ -1,0 +1,877 @@
+{
+ "audit_date": "4 November 2026",
+ "tasks": [
+  {
+   "id": "complaints",
+   "title": "Filing municipal complaints and grievances"
+  },
+  {
+   "id": "property_tax",
+   "title": "Paying property taxes"
+  },
+  {
+   "id": "certificates",
+   "title": "Applying for government certificates"
+  },
+  {
+   "id": "water",
+   "title": "Accessing water and utility services"
+  },
+  {
+   "id": "transport",
+   "title": "Accessing public transport"
+  },
+  {
+   "id": "health",
+   "title": "Finding and accessing public healthcare"
+  },
+  {
+   "id": "waste",
+   "title": "Reporting waste and sanitation issues"
+  },
+  {
+   "id": "pds",
+   "title": "Accessing the Public Distribution System"
+  },
+  {
+   "id": "documents",
+   "title": "Obtaining government documents online"
+  },
+  {
+   "id": "tracking",
+   "title": "Tracking applications and service requests"
+  }
+ ],
+ "records": [
+  {
+   "task": "complaints",
+   "city": "bengaluru",
+   "portal": "Greater Bengaluru Authority site, Sahaaya 2.0",
+   "operator": "GBA and five city corporations",
+   "url": "https://gba.karnataka.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "The GBA home page links to the 'Namma Bengaluru [Sahaaya 2.0]' Android app."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We found no verified list of offices that accept complaints in person."
+   },
+   "language": {
+    "text": "English. Found by script; translation completeness not verified.",
+    "offered": [
+     "English"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 4,
+    "nodes": 18,
+    "note": "Also tested: Sahaaya complaints (bbmp.sahaaya.in) (did not load)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "41 visible links, 0 form fields, about 526 words before any task begins.",
+   "barriers": [
+    "Our browser reported a certificate error at the older bbmp.sahaaya.in web address."
+   ],
+   "evidence": [
+    {
+     "label": "GBA home page",
+     "url": "https://gba.karnataka.gov.in/"
+    },
+    {
+     "label": "Sahaaya 2.0 on Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.nammabengaluruNew.org"
+    }
+   ]
+  },
+  {
+   "task": "complaints",
+   "city": "hyderabad",
+   "portal": "GHMC Integrated Grievance System",
+   "operator": "GHMC",
+   "url": "https://igs.ghmc.gov.in/operator/send_otp_mobile",
+   "online": {
+    "status": "verified",
+    "text": "Lodging a grievance starts with a mobile number and OTP. News reports describe MyCURE as the app that replaced MyGHMC; we did not test the app."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We found no verified list of offices that accept complaints in person."
+   },
+   "language": {
+    "text": "Google Translate widget. Found by script; translation completeness not verified.",
+    "offered": [
+     "Google Translate widget"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 1,
+    "nodes": 1,
+    "note": "Also tested: GHMC grievances (3 rules)"
+   },
+   "auth": "Mentions otp.",
+   "complexity": "1 visible links, 1 form fields, about 7 words before any task begins.",
+   "barriers": [],
+   "evidence": [
+    {
+     "label": "Lodge grievance",
+     "url": "https://igs.ghmc.gov.in/operator/send_otp_mobile"
+    },
+    {
+     "label": "Report on the MyCURE app",
+     "url": "https://newsmeter.in/hyderabad/hyderabad-ghmc-unveils-mycure-app-to-track-resolve-civic-complaints-in-real-time-763247"
+    }
+   ]
+  },
+  {
+   "task": "property_tax",
+   "city": "bengaluru",
+   "portal": "Bengaluru property tax system",
+   "operator": "Bengaluru City Corporations",
+   "url": "https://bbmptax.karnataka.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "The page lists demand notices, payment, payment status, receipts and grievance tickets."
+   },
+   "offline": {
+    "status": "verified",
+    "text": "The portal links a PDF list of designated bank branches for payment. We did not check that list."
+   },
+   "language": {
+    "text": "English, Kannada, Bhashini widget. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Kannada",
+     "Bhashini widget"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 3,
+    "nodes": 5,
+    "note": ""
+   },
+   "auth": "Mentions sign-in.",
+   "complexity": "49 visible links, 4 form fields, about 623 words before any task begins.",
+   "barriers": [
+    "The address still uses the former BBMP name.",
+    "Seva Sindhu lists BBMP property tax, but its Apply Online link returns to the same list."
+   ],
+   "evidence": [
+    {
+     "label": "Property tax portal",
+     "url": "https://bbmptax.karnataka.gov.in/"
+    },
+    {
+     "label": "Designated bank branches (PDF)",
+     "url": "https://bbmptax.karnataka.gov.in/documents/BANKS_AND_BRANCHES_LIST.pdf"
+    }
+   ]
+  },
+  {
+   "task": "property_tax",
+   "city": "hyderabad",
+   "portal": "GHMC property tax payment",
+   "operator": "GHMC / CURE",
+   "url": "https://onlinepayments.ghmc.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "The payment form asks for a PTI number or registered mobile number. MeeSeva also lists GHMC property tax."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm payment counters or citizen service centres."
+   },
+   "language": {
+    "text": "Kannada, Telugu, Urdu, Tamil, Hindi, Google Translate widget. Found by script; translation completeness not verified.",
+    "offered": [
+     "Kannada",
+     "Telugu",
+     "Urdu",
+     "Tamil",
+     "Hindi",
+     "Google Translate widget"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 3,
+    "nodes": 7,
+    "note": "Also tested: GHMC property tax search (8 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "8 visible links, 2 form fields, about 93 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1)."
+   ],
+   "evidence": [
+    {
+     "label": "Property tax payment",
+     "url": "https://onlinepayments.ghmc.gov.in/"
+    },
+    {
+     "label": "MeeSeva",
+     "url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm"
+    }
+   ]
+  },
+  {
+   "task": "certificates",
+   "city": "bengaluru",
+   "portal": "e-Janma download certificate",
+   "operator": "Karnataka, Chief Registrar of Births and Deaths",
+   "url": "https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx",
+   "online": {
+    "status": "verified",
+    "text": "The download page loaded. Seva Sindhu also lists BBMP certificates, but its Apply Online link returns to the same list."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "Customer Service Centre records are on the map, but the source does not confirm which centres are open or what they issue."
+   },
+   "language": {
+    "text": "English, Hindi, Bhashini widget. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Hindi",
+     "Bhashini widget"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 2,
+    "nodes": 4,
+    "note": "Also tested: e-Janma births and deaths (1 rules); Also tested: Nadakacheri AJSK certificates (5 rules)"
+   },
+   "auth": "Mentions sign-in.",
+   "complexity": "43 visible links, 2 form fields, about 275 words before any task begins.",
+   "barriers": [],
+   "evidence": [
+    {
+     "label": "e-Janma download certificate",
+     "url": "https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx"
+    },
+    {
+     "label": "Nadakacheri AJSK",
+     "url": "https://nadakacheri.karnataka.gov.in/ajsk"
+    }
+   ]
+  },
+  {
+   "task": "certificates",
+   "city": "hyderabad",
+   "portal": "GHMC birth and death certificate search, MeeSeva",
+   "operator": "GHMC and Telangana",
+   "url": "https://bnd.ghmc.gov.in/Birth_Certificate.aspx",
+   "online": {
+    "status": "verified",
+    "text": "GHMC names these search pages as the citizen address. The search needs an acknowledgement or application number. MeeSeva also lists GHMC certificates."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "MeeSeva shows its own centres map, but we have not extracted or checked those locations, so they are not on our map."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 4,
+    "nodes": 9,
+    "note": "Also tested: GHMC death certificate search (4 rules); Also tested: GHMC births and deaths sign-in (labelled Hospitals Login) (4 rules); Also tested: MeeSeva (4 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "1 visible links, 3 form fields, about 12 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1)."
+   ],
+   "evidence": [
+    {
+     "label": "Birth certificate search",
+     "url": "https://bnd.ghmc.gov.in/Birth_Certificate.aspx"
+    },
+    {
+     "label": "Death certificate search",
+     "url": "https://bnd.ghmc.gov.in/Death_Certificate.aspx"
+    },
+    {
+     "label": "GHMC Birth and Death page",
+     "url": "https://www.ghmc.gov.in/Birth.aspx"
+    }
+   ]
+  },
+  {
+   "task": "water",
+   "city": "bengaluru",
+   "portal": "BWSSB",
+   "operator": "Bengaluru Water Supply and Sewerage Board",
+   "url": "https://bwssb.karnataka.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "The site links complaint lodging and water bill payment information."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm service stations or payment counters."
+   },
+   "language": {
+    "text": "English, Kannada. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Kannada"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 7,
+    "nodes": 32,
+    "note": ""
+   },
+   "auth": "Mentions sign-in.",
+   "complexity": "111 visible links, 0 form fields, about 870 words before any task begins.",
+   "barriers": [],
+   "evidence": [
+    {
+     "label": "BWSSB",
+     "url": "https://bwssb.karnataka.gov.in/"
+    },
+    {
+     "label": "Lodge a complaint",
+     "url": "https://bwssb.karnataka.gov.in/258/lodge-complaint/kn"
+    }
+   ]
+  },
+  {
+   "task": "water",
+   "city": "hyderabad",
+   "portal": "HMWSSB",
+   "operator": "Hyderabad Metropolitan Water Supply and Sewerage Board",
+   "url": "https://www.hyderabadwater.gov.in/en/",
+   "online": {
+    "status": "verified",
+    "text": "The site lists bill payment, tanker booking, grievance registration and status, and a WhatsApp route."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm customer service offices."
+   },
+   "language": {
+    "text": "English. Found by script; translation completeness not verified.",
+    "offered": [
+     "English"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 7,
+    "nodes": 30,
+    "note": "Also tested: HMWSSB register grievance (3 rules)"
+   },
+   "auth": "Mentions sign-in.",
+   "complexity": "46 visible links, 0 form fields, about 226 words before any task begins.",
+   "barriers": [
+    "Moving or blinking text is present (WCAG 2.2.2)."
+   ],
+   "evidence": [
+    {
+     "label": "HMWSSB",
+     "url": "https://www.hyderabadwater.gov.in/en/"
+    },
+    {
+     "label": "Register a grievance",
+     "url": "https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/register-grievances"
+    }
+   ]
+  },
+  {
+   "task": "transport",
+   "city": "bengaluru",
+   "portal": "BMTC, Namma Metro",
+   "operator": "BMTC and BMRCL",
+   "url": "https://mybmtc.karnataka.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "Both operator sites loaded. We did not test journey planning or ticketing."
+   },
+   "offline": {
+    "status": "verified",
+    "text": "Bus stop and metro station locations are on the map. OSM tags 81 of 87 metro stations as wheelchair accessible; these community tags are not an audit."
+   },
+   "language": {
+    "text": "English, Kannada. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Kannada"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 1,
+    "nodes": 3,
+    "note": "Also tested: Namma Metro (BMRCL) (5 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "166 visible links, 1 form fields, about 1490 words before any task begins.",
+   "barriers": [],
+   "evidence": [
+    {
+     "label": "BMTC",
+     "url": "https://mybmtc.karnataka.gov.in/"
+    },
+    {
+     "label": "Namma Metro",
+     "url": "https://english.bmrc.co.in/"
+    }
+   ]
+  },
+  {
+   "task": "transport",
+   "city": "hyderabad",
+   "portal": "TGSRTC, Hyderabad Metro",
+   "operator": "TGSRTC and L&T Metro Rail",
+   "url": "https://www.tgsrtc.telangana.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "Both operator sites loaded. We did not test journey planning or ticketing."
+   },
+   "offline": {
+    "status": "verified",
+    "text": "Bus stop and metro station locations are on the map. Metro stations come from the official July 2026 GTFS feed."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 2,
+    "nodes": 2,
+    "note": "Also tested: Hyderabad Metro (L&T) (7 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "26 visible links, 0 form fields, about 617 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1)."
+   ],
+   "evidence": [
+    {
+     "label": "TGSRTC",
+     "url": "https://www.tgsrtc.telangana.gov.in/"
+    },
+    {
+     "label": "Hyderabad Metro",
+     "url": "https://www.ltmetro.com/"
+    }
+   ]
+  },
+  {
+   "task": "health",
+   "city": "bengaluru",
+   "portal": "GBA clinic finder, state health department",
+   "operator": "GBA, Karnataka",
+   "url": "https://gba.karnataka.gov.in/polio/",
+   "online": {
+    "status": "verified",
+    "text": "The GBA home page offers a tool to find a nearby polio booth, UPHC or Namma Clinic. It sits inside a polio campaign page."
+   },
+   "offline": {
+    "status": "verified",
+    "text": "139 UPHCs and 239 Namma Clinics are on the map. Distance does not show whether a clinic is staffed or physically accessible."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 4,
+    "nodes": 11,
+    "note": "Also tested: Karnataka Health and Family Welfare (7 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "1 visible links, 9 form fields, about 1430 words before any task begins.",
+   "barriers": [
+    "Form fields without labels (WCAG 3.3.2)."
+   ],
+   "evidence": [
+    {
+     "label": "Clinic finder",
+     "url": "https://gba.karnataka.gov.in/polio/"
+    },
+    {
+     "label": "Karnataka Health and Family Welfare",
+     "url": "https://hfwcom.karnataka.gov.in/"
+    }
+   ]
+  },
+  {
+   "task": "health",
+   "city": "hyderabad",
+   "portal": "Telangana Health, Family Welfare",
+   "operator": "Telangana",
+   "url": "https://health.telangana.gov.in/",
+   "online": {
+    "status": "notverified",
+    "text": "We found department pages but did not confirm a tool for finding a nearby public clinic."
+   },
+   "offline": {
+    "status": "verified",
+    "text": "Basti Dawakhanas and UPHCs are on the map from an undated list. Distance does not show whether a clinic is staffed or physically accessible."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 5,
+    "nodes": 26,
+    "note": "Also tested: Telangana Family Welfare (6 rules)"
+   },
+   "auth": "Mentions sign-in.",
+   "complexity": "24 visible links, 0 form fields, about 64 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1).",
+    "Our script detected no focus outline in 20 Tab presses (WCAG 2.4.7; check by hand)."
+   ],
+   "evidence": [
+    {
+     "label": "Telangana Health",
+     "url": "https://health.telangana.gov.in/"
+    },
+    {
+     "label": "Family Welfare",
+     "url": "https://chfw.telangana.gov.in/home.do"
+    }
+   ]
+  },
+  {
+   "task": "waste",
+   "city": "bengaluru",
+   "portal": "Bengaluru Solid Waste Management Ltd",
+   "operator": "BSWML",
+   "url": "https://bswml.karnataka.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "The site links a citizen registration page on a separate address, bswmlclearit.com. We did not test reporting."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm a walk-in route for waste complaints."
+   },
+   "language": {
+    "text": "English, Kannada. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Kannada"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 7,
+    "nodes": 199,
+    "note": ""
+   },
+   "auth": "Mentions sign-in.",
+   "complexity": "109 visible links, 0 form fields, about 1124 words before any task begins.",
+   "barriers": [
+    "The linked citizen registration address reset the connection in two link checks on 4 November 2026. Recheck by hand."
+   ],
+   "evidence": [
+    {
+     "label": "BSWML",
+     "url": "https://bswml.karnataka.gov.in/"
+    },
+    {
+     "label": "Citizen registration",
+     "url": "https://bswmlclearit.com/citizen"
+    }
+   ]
+  },
+  {
+   "task": "waste",
+   "city": "hyderabad",
+   "portal": "GHMC citizen grievance",
+   "operator": "GHMC",
+   "url": "https://www.ghmc.gov.in/",
+   "online": {
+    "status": "notverified",
+    "text": "The GHMC home page shows 'Citizen Grievance', but we did not confirm a dedicated waste-reporting route."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm a walk-in route for waste complaints."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 7,
+    "nodes": 49,
+    "note": ""
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "67 visible links, 1 form fields, about 557 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1)."
+   ],
+   "evidence": [
+    {
+     "label": "GHMC",
+     "url": "https://www.ghmc.gov.in/"
+    },
+    {
+     "label": "GHMC 'How do I' guide",
+     "url": "https://ghmc.gov.in/howdoi.aspx"
+    }
+   ]
+  },
+  {
+   "task": "pds",
+   "city": "bengaluru",
+   "portal": "Ahara",
+   "operator": "Karnataka Food, Civil Supplies and Consumer Affairs",
+   "url": "https://ahara.karnataka.gov.in/",
+   "online": {
+    "status": "verified",
+    "text": "The department site loaded, and its text mentions Aadhaar and OTP. We did not test any service."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We found no verified location dataset for ration shops, so they are not on the map."
+   },
+   "language": {
+    "text": "English, Kannada. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Kannada"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 1,
+    "nodes": 6,
+    "note": ""
+   },
+   "auth": "Mentions otp, mentions aadhaar.",
+   "complexity": "68 visible links, 1 form fields, about 574 words before any task begins.",
+   "barriers": [],
+   "evidence": [
+    {
+     "label": "Ahara",
+     "url": "https://ahara.karnataka.gov.in/"
+    }
+   ]
+  },
+  {
+   "task": "pds",
+   "city": "hyderabad",
+   "portal": "Telangana ePDS",
+   "operator": "Telangana Civil Supplies",
+   "url": "https://epds.telangana.gov.in/FoodSecurityAct/",
+   "online": {
+    "status": "verified",
+    "text": "The portal loaded with a password sign-in and CAPTCHA."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We found no verified location dataset for ration shops. AIKosh lists shop transactions, but we did not confirm any location fields."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 5,
+    "nodes": 13,
+    "note": "Also tested: Telangana Civil Supplies (6 rules)"
+   },
+   "auth": "Password field, captcha.",
+   "complexity": "12 visible links, 6 form fields, about 115 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1).",
+    "Moving or blinking text is present (WCAG 2.2.2).",
+    "Form fields without labels (WCAG 3.3.2)."
+   ],
+   "evidence": [
+    {
+     "label": "ePDS",
+     "url": "https://epds.telangana.gov.in/FoodSecurityAct/"
+    },
+    {
+     "label": "Civil Supplies",
+     "url": "https://civilsupplies.telangana.gov.in/"
+    },
+    {
+     "label": "AIKosh shop transactions",
+     "url": "https://aikosh.indiaai.gov.in/home/datasets/details/telangana_state_civil_supplies_fair_price_shop_transactions.html"
+    }
+   ]
+  },
+  {
+   "task": "documents",
+   "city": "bengaluru",
+   "portal": "Seva Sindhu, DigiLocker",
+   "operator": "Karnataka, Government of India",
+   "url": "https://sevasindhu.karnataka.gov.in/Sevasindhu/Kannada?ReturnUrl=%2F",
+   "online": {
+    "status": "verified",
+    "text": "Seva Sindhu loaded and defaulted to Kannada. DigiLocker is a national option. We did not test any application."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "Customer Service Centre records are on the map, but the source does not confirm which centres are open."
+   },
+   "language": {
+    "text": "English, Kannada. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Kannada"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 2,
+    "nodes": 19,
+    "note": "Also tested: DigiLocker (0 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "63 visible links, 0 form fields, about 308 words before any task begins.",
+   "barriers": [
+    "Our script detected no focus outline in 20 Tab presses (WCAG 2.4.7; check by hand)."
+   ],
+   "evidence": [
+    {
+     "label": "Seva Sindhu",
+     "url": "https://sevasindhu.karnataka.gov.in/"
+    },
+    {
+     "label": "DigiLocker",
+     "url": "https://www.digilocker.gov.in/"
+    }
+   ]
+  },
+  {
+   "task": "documents",
+   "city": "hyderabad",
+   "portal": "MeeSeva, DigiLocker",
+   "operator": "Telangana, Government of India",
+   "url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+   "online": {
+    "status": "verified",
+    "text": "MeeSeva loaded with a sign-in form, and DigiLocker is a national option. We did not test any application."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "MeeSeva shows its own centres map, but we have not extracted or checked those locations."
+   },
+   "language": {
+    "text": "English, Telugu. Found by script; translation completeness not verified.",
+    "offered": [
+     "English",
+     "Telugu"
+    ]
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 4,
+    "nodes": 16,
+    "note": "Also tested: DigiLocker (0 rules)"
+   },
+   "auth": "Password field.",
+   "complexity": "47 visible links, 5 form fields, about 234 words before any task begins.",
+   "barriers": [
+    "Form fields without labels (WCAG 3.3.2)."
+   ],
+   "evidence": [
+    {
+     "label": "MeeSeva",
+     "url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm"
+    },
+    {
+     "label": "DigiLocker",
+     "url": "https://www.digilocker.gov.in/"
+    }
+   ]
+  },
+  {
+   "task": "tracking",
+   "city": "bengaluru",
+   "portal": "Sakala",
+   "operator": "Karnataka",
+   "url": "https://sakala.kar.nic.in/",
+   "online": {
+    "status": "verified",
+    "text": "The Sakala page loaded with form fields. We did not test a live application number."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm an in-person tracking route."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 7,
+    "nodes": 66,
+    "note": ""
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "95 visible links, 8 form fields, about 313 words before any task begins.",
+   "barriers": [
+    "Form fields without labels (WCAG 3.3.2)."
+   ],
+   "evidence": [
+    {
+     "label": "Sakala",
+     "url": "https://sakala.kar.nic.in/"
+    }
+   ]
+  },
+  {
+   "task": "tracking",
+   "city": "hyderabad",
+   "portal": "GHMC application status, MeeSeva",
+   "operator": "GHMC, Telangana",
+   "url": "https://bnd.ghmc.gov.in/KnowYourApplicationStatus.aspx",
+   "online": {
+    "status": "verified",
+    "text": "MeeSeva links 'Know Your GHMC Application Status (Birth/Death)'. The status page loaded. We did not test a live application number."
+   },
+   "offline": {
+    "status": "notverified",
+    "text": "We did not confirm an in-person tracking route."
+   },
+   "language": {
+    "text": "None detected by our script. Not verified by hand.",
+    "offered": []
+   },
+   "audit": {
+    "status": "audited",
+    "rules": 5,
+    "nodes": 11,
+    "note": "Also tested: MeeSeva (4 rules)"
+   },
+   "auth": "Nothing detected on this page. Later steps not verified.",
+   "complexity": "1 visible links, 6 form fields, about 25 words before any task begins.",
+   "barriers": [
+    "The page does not declare its language, so a screen reader may mispronounce it (WCAG 3.1.1).",
+    "Form fields without labels (WCAG 3.3.2)."
+   ],
+   "evidence": [
+    {
+     "label": "GHMC application status",
+     "url": "https://bnd.ghmc.gov.in/KnowYourApplicationStatus.aspx"
+    }
+   ]
+  }
+ ]
+}

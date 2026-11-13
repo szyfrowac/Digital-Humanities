@@ -1,0 +1,4292 @@
+{
+ "blr_gba": {
+  "id": "blr_gba",
+  "requestedUrl": "https://gba.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:16.526Z",
+  "httpStatus": 200,
+  "finalUrl": "https://gba.karnataka.gov.in/home",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".right-2 > button"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 4,
+     "sample": ".text-green-900"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 7,
+     "sample": ".sm\\:w-20.sm\\:h-20.md\\:w-\\[90px\\] > .h-full.object-contain[src$=\"Karnataka.png\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 4,
+     "sample": "a[href$=\"gba_office\"]:nth-child(1)"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 10,
+     "sample": ".text-2xl"
+    },
+    {
+     "id": "frame-title-unique",
+     "impact": "serious",
+     "help": "Frames must have a unique title attribute",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".min-h-\\[850px\\]"
+    }
+   ],
+   "passes": 17
+  },
+  "probes": {
+   "title": "GBA - Greater Bengaluru Authority",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width,initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 2992,
+    "kannada": 5,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 526,
+    "links": 41,
+    "formInputs": 0,
+    "h1": 6,
+    "landmarks": 3,
+    "images": 27
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "ಕನ್ನಡ Shri. D.K. Shivakumar Hon'ble Chief Minister Government of Karnataka Government of Karnataka Greater Bengaluru Authority Shri. Dr. G.Parameshwara Hon'ble Deputy Chief Minister Government of Karnataka Shri.Krishna Byre Gowda Hon'ble Minister for Greater Bengaluru Development About GBA Services Corporations Departments Contact us GREATER BENGALURU AUTHORITY Towards Better Governance and Servic"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 15
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_gba_clinics": {
+  "id": "blr_gba_clinics",
+  "requestedUrl": "https://gba.karnataka.gov.in/polio/",
+  "auditedAt": "2026-11-03T23:59:22.072Z",
+  "httpStatus": 200,
+  "finalUrl": "https://gba.karnataka.gov.in/polio/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".locate"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 5,
+     "sample": ".section:nth-child(1) > h4"
+    },
+    {
+     "id": "select-name",
+     "impact": "critical",
+     "help": "Select element must have an accessible name",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".filter-group:nth-child(2) > select"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 2,
+     "sample": ".ol-zoom-in"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 4,
+     "sample": ".close-sidebar"
+    },
+    {
+     "id": "link-in-text-block",
+     "impact": "serious",
+     "help": "Links must be distinguishable without relying on color",
+     "tags": [
+      "cat.color",
+      "wcag2a",
+      "wcag141"
+     ],
+     "nodes": 1,
+     "sample": "a"
+    }
+   ],
+   "passes": 17
+  },
+  "probes": {
+   "title": "GBA - Pulse Polio Campaign",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width,initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 5171,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 1430,
+    "links": 1,
+    "formInputs": 9,
+    "h1": 0,
+    "landmarks": 3,
+    "images": 1
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Pulse Polio Booths - Greater Bengaluru Authority and City Corporations Map Filters ✕ LOCATION FILTER Corporation All Corporations Central East North South West Zone All Zones Bommanahalli Byatarayanapura C.V. Raman Nagar Gandhinagara Jayanagar K.R. Pura Mahadevapura Malleshwaram Rajarajeshwarinagar Yelahanka Ward All Wards 1 - K Narayanapura 1 - Nagasandra 1 - Padmanabhanagara 1 - Raja Kempegowda "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 19,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 17
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_sahaaya": {
+  "id": "blr_sahaaya",
+  "requestedUrl": "https://bbmp.sahaaya.in/",
+  "auditedAt": "2026-11-03T23:59:24.672Z",
+  "status": "failed",
+  "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bbmp.sahaaya.in/"
+ },
+ "blr_bbmp": {
+  "id": "blr_bbmp",
+  "requestedUrl": "https://bbmp.gov.in/",
+  "auditedAt": "2026-11-03T23:59:24.974Z",
+  "httpStatus": 200,
+  "finalUrl": "https://bbmp.gov.in/home",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".right-2 > button"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 4,
+     "sample": ".text-green-900"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 7,
+     "sample": ".sm\\:w-20.sm\\:h-20.md\\:w-\\[90px\\] > .h-full.object-contain[src$=\"Karnataka.png\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 4,
+     "sample": "a[href$=\"gba_office\"]:nth-child(1)"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 10,
+     "sample": ".text-2xl"
+    },
+    {
+     "id": "frame-title-unique",
+     "impact": "serious",
+     "help": "Frames must have a unique title attribute",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".min-h-\\[850px\\]"
+    }
+   ],
+   "passes": 17
+  },
+  "probes": {
+   "title": "GBA - Greater Bengaluru Authority",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width,initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 2992,
+    "kannada": 5,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 526,
+    "links": 41,
+    "formInputs": 0,
+    "h1": 6,
+    "landmarks": 3,
+    "images": 27
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "ಕನ್ನಡ Shri. D.K. Shivakumar Hon'ble Chief Minister Government of Karnataka Government of Karnataka Greater Bengaluru Authority Shri. Dr. G.Parameshwara Hon'ble Deputy Chief Minister Government of Karnataka Shri.Krishna Byre Gowda Hon'ble Minister for Greater Bengaluru Development About GBA Services Corporations Departments Contact us GREATER BENGALURU AUTHORITY Towards Better Governance and Servic"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 16
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_ptax": {
+  "id": "blr_ptax",
+  "requestedUrl": "https://bbmptax.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:30.821Z",
+  "httpStatus": 200,
+  "finalUrl": "https://bbmptax.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": ".ticker-track > li:nth-child(1) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+    },
+    {
+     "id": "list",
+     "impact": "serious",
+     "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+     "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": ".uctl"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 2,
+     "sample": "a[href=\"tel:+918022975555\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-prohibited-attr",
+     "impact": "serious",
+     "help": "Elements must only use permitted ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".corps"
+    },
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".bhashini-dropdown-btn"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 6,
+     "sample": "#newsTitle"
+    }
+   ],
+   "passes": 32
+  },
+  "probes": {
+   "title": "Property Tax System | Bengaluru City Corporations",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": true
+   },
+   "scriptChars": {
+    "latin": 3194,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": true,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 623,
+    "links": 49,
+    "formInputs": 4,
+    "h1": 1,
+    "landmarks": 4,
+    "images": 10
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Skip to main content Government of Karnataka Bengaluru City Corporations Property Tax System Shri D.K. Shivakumar Hon'ble Chief Minister Shri G. Parameshwara Hon'ble Deputy Chief Minister Shri Krishna Byre Gowda Hon'ble Minister, Greater Bengaluru Development Authority Greater Bengaluru Authority South | North | East | West | Central Government of Karnataka Search this website Search Home Proclama"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_ejanma": {
+  "id": "blr_ejanma",
+  "requestedUrl": "https://ejanma.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:33.254Z",
+  "httpStatus": 200,
+  "finalUrl": "https://ejanma.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 3,
+     "sample": "#ctl00_ContentPlaceHolder1_HyperLink2"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".bhashini-dropdown-btn"
+    }
+   ],
+   "passes": 28
+  },
+  "probes": {
+   "title": "BIRTHS AND DEATHS | OFFICE OF THE CHIEF REGISTRAR OF BIRTHS AND DEATHS",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": true,
+    "googleTranslate": false,
+    "bhashini": true
+   },
+   "scriptChars": {
+    "latin": 2556,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 487,
+    "links": 46,
+    "formInputs": 2,
+    "h1": 1,
+    "landmarks": 4,
+    "images": 11
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "textSample": "Enter a keyword in the search field and select Search to find information on this website. Search Screen Reader Access eJanMa 1800-425-6578 Home Contact Us Forms Help FAQs Site Map Login Download Certificate Birth /Death Verification Vital Statistics Report Application Status Registration Details eJanMa - Government of Karnataka Highlights This site provides details of all Births, Deaths and Still"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 4,
+  "status": "audited"
+ },
+ "blr_nadakacheri": {
+  "id": "blr_nadakacheri",
+  "requestedUrl": "https://nadakacheri.karnataka.gov.in/ajsk",
+  "auditedAt": "2026-11-03T23:59:36.031Z",
+  "httpStatus": 200,
+  "finalUrl": "https://nadakacheri.karnataka.gov.in/ajsk",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 20,
+     "sample": "label[for=\"NSApplicationRaised\"]"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 9,
+     "sample": ".bhoomi"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": "form > a[href$=\"karnataka.gov.in/\"]"
+    },
+    {
+     "id": "marquee",
+     "impact": "serious",
+     "help": "<marquee> elements are deprecated and must not be used",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag222"
+     ],
+     "nodes": 1,
+     "sample": "marquee"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 7,
+     "sample": "label[for=\"LayoutMainHeading\"]"
+    },
+    {
+     "id": "duplicate-id-aria",
+     "impact": "critical",
+     "help": "IDs used in ARIA and labels must be unique",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".nav-item:nth-child(3)"
+    }
+   ],
+   "passes": 26
+  },
+  "probes": {
+   "title": "AJSK Home Page",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 1636,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 341,
+    "links": 26,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 6,
+    "images": 27
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": true
+   },
+   "textSample": "NADAKACHERI - ATALJI JANASNEHI KENDRA Kannada English (current) Home About Online Application Circulars & Downloads Contact Details Photo Gallery RTI Feedback Related Websites Service Center Details Samyojane Mobile Application for filed Verification of RI & VA has been introduced on 8th May 2019 Citizen Certificate Verification link enabled. Instant Certificate Delivery Service(e-Kshana) enabled."
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 18
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 3,
+  "status": "audited"
+ },
+ "blr_bwssb": {
+  "id": "blr_bwssb",
+  "requestedUrl": "https://bwssb.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:39.593Z",
+  "httpStatus": 200,
+  "finalUrl": "https://bwssb.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-required-children",
+     "impact": "critical",
+     "help": "Certain ARIA roles must contain particular children",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": "#nav-tab"
+    },
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 10,
+     "sample": "button[data-bs-slide-to=\"0\"]"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": "#view_news_btn"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 14,
+     "sample": ".hli"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav > .nav-item.level_0:nth-child(1) > .nav-link"
+    },
+    {
+     "id": "list",
+     "impact": "serious",
+     "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+     "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 3,
+     "sample": ".carousel-item.active > .car-layer > .homePagesliderVideo > a:nth-child(1)"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 22,
+     "sample": ".dropdown.nav-item.level_0:nth-child(2) > .dropdown-toggle[data-bs-auto-close=\"outside\"][role=\"button\"]"
+    },
+    {
+     "id": "duplicate-id-aria",
+     "impact": "critical",
+     "help": "IDs used in ARIA and labels must be unique",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".modal-xl > .modal-content > .modal-header > h5"
+    }
+   ],
+   "passes": 28
+  },
+  "probes": {
+   "title": "ಬೆಂಗಳೂರು ನೀರು ಸರಬರಾಜು ಮತ್ತು ಒಳಚರಂಡಿ ಮಂಡಳಿ - Index",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 644,
+    "kannada": 4655,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 870,
+    "links": 111,
+    "formInputs": 0,
+    "h1": 2,
+    "landmarks": 2,
+    "images": 133
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "LOGIN ENGLISH VISUALLY CHALLENGED ಹುಡುಕಿ A ಬೆಂಗಳೂರು ನೀರು ಸರಬರಾಜು ಮತ್ತು ಒಳಚರಂಡಿ ಮಂಡಳಿ Government of Karnataka ಸಂಪರ್ಕಿಸಿ ಗ್ಯಾಲರಿ ನೇಮಕಾತಿ ಅಧಿಸೂಚನೆ 2025 ಮಂಡಳಿಯ ಸ್ಥಾಪನೆ ಮತ್ತು ಅಧಿಕಾರಿಗಳು ಮಾಹಿತಿ ಹಕ್ಕು × ಏಕರೂಪ ದರಪಟ್ಟಿ ನೇಮಕಾತಿ Linking of PID ಸಾರ್ವಜನಿಕರ ಸೌಲಭ್ಯಕ್ಕಾಗಿ ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್ ಅಭಿಪ್ರಾಯ ಬೆಂಗಳೂರು ಜಲಮಂಡಳಿ:ನೇರ ಫೋನ್ ಇನ್ ಕಾರ್ಯಕ್ರಮ ಅಕ್ಟೋಬರ್ 09 ರಂದು ಬೆಂಗಳೂರು ಜಲಮಂಡಳಿ:ನೇರ ಫೋನ್ ಇನ್ ಕಾರ್ಯಕ್ರಮ ಅಕ್ಟೋಬರ್ 09 ರಂದು ಮತ್ತ"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "blr_bmtc": {
+  "id": "blr_bmtc",
+  "requestedUrl": "https://mybmtc.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:44.148Z",
+  "httpStatus": 200,
+  "finalUrl": "https://mybmtc.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 3,
+     "sample": "#newsMarqueePlayPauseKannada"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "#kicA11yTrigger"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 28,
+     "sample": ".kic-a11y-drawer-head > h2"
+    }
+   ],
+   "passes": 34
+  },
+  "probes": {
+   "title": "ಮುಖಪುಟ | ಬೆಂಗಳೂರು ಮಹಾನಗರ ಸಾರಿಗೆ ಸಂಸ್ಥೆ | ಕರ್ನಾಟಕ ಸರ್ಕಾರ",
+   "htmlLang": "kn",
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 1236,
+    "kannada": 8018,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": true,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 1490,
+    "links": 166,
+    "formInputs": 1,
+    "h1": 1,
+    "landmarks": 5,
+    "images": 107
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ • ಲಾಗಿನ್ | A English | ಅ ಕನ್ನಡ (ಪ್ರಸ್ತುತ) | ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ತೆರಳಿ (Skip to main content) ಈ ಜಾಲತಾಣದಲ್ಲಿ ಹುಡುಕಿ ಹುಡುಕಿ ಪರದೆ ಓದುಗ | A- A A+ | ಪ್ರವೇಶಿಸುವಿಕೆ ಪರಿಕರಗಳು ಪ್ರವೇಶಿಸುವಿಕೆ ಪರಿಕರಗಳು × ಬಣ್ಣದ ವ್ಯತಿರಿಕ್ತತೆ ಹೆಚ್ಚಿನ ವ್ಯತಿರಿಕ್ತತೆ ಸಾಮಾನ್ಯ ವ್ಯತಿರಿಕ್ತತೆ ಲಿಂಕ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ ಬಣ್ಣ ವಿಲೋಮ ಶುದ್ಧತ್ವ ಇತರ ನಿಯಂತ್ರಣಗಳು ಪಠ್ಯ ಅಂತರ ಸಾಲಿನ ಎತ್ತರ ಚಿತ್ರಗಳನ್ನು ಮರೆಮಾಡಿ ದೊಡ್ಡ ಕರ್ಸರ್ ಆನಿಮೇಶನ್ ಎಲ್ಲವನ್ನೂ ಮರು"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_bmrc": {
+  "id": "blr_bmrc",
+  "requestedUrl": "https://english.bmrc.co.in/",
+  "auditedAt": "2026-11-03T23:59:48.089Z",
+  "httpStatus": 200,
+  "finalUrl": "https://english.bmrc.co.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 5,
+     "sample": "form > button"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 41,
+     "sample": ".initial-child-container > .child:nth-child(1) > div > a[href=\"#\"] > img[src$=\"acrobat.png\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": "a[href$=\"BMRCL\"]"
+    },
+    {
+     "id": "select-name",
+     "impact": "critical",
+     "help": "Select element must have an accessible name",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".form-group:nth-child(1) > select"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-prohibited-attr",
+     "impact": "serious",
+     "help": "Elements must only use permitted ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": "div[aria-label=\"A chart.\"]"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 44,
+     "sample": ".signin-form > h4"
+    }
+   ],
+   "passes": 26
+  },
+  "probes": {
+   "title": "Namma Metro",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 607,
+    "kannada": 9281,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 1460,
+    "links": 111,
+    "formInputs": 2,
+    "h1": 2,
+    "landmarks": 1,
+    "images": 76
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "English ಫಾಂಟ್ ಸೈಜ್ A A ಮಾರ್ಗ ನಕ್ಷೆ ಸೈಟ್ ನಕ್ಷೆ ಮುಖಪುಟ ಮೆಟ್ರೋ ಬಗ್ಗೆ ಯೋಜನಾ ಚಿತ್ರಣ ಸ್ವತ್ತು ಅಭಿವೃದ್ಧಿ ಪ್ರಯಾಣ ಮಾಹಿತಿ ಟೆಂಡರ್ ವಾರ್ತೆಗಳು ಹಣಕಾಸು ಪರಿಸರ ಗ್ಯಾಲರಿ ವೃತ್ತಿ ಜೀವನ ಕುಂದುಕೊರತೆ ಜಾಗೃತಾ ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಸಂಪರ್ಕಿಸಿ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು ಪ್ರಯಾಣ ದರದ ಲೆಕ್ಕಾಚಾರ ನಿಲ್ದಾಣದಿಂದ -- ಆಯ್ಕೆ ಮಾಡಿ -- ವೈಟ್‌ಫೀಲ್ಡ್ ಚನ್ನಸಂದ್ರ ಕಾಡುಗೋಡಿ ಟ್ರೀ ಪಾರ್ಕ್ ಪಟ್ಟಂದೂರು ಅಗ್ರಹಾರ ಶ್ರೀ ಸತ್ಯ ಸಾಯಿ ಆಸ್ಪತ್ರೆ ನಲ್ಲೂರು ಹಳ್ಳಿ ಕುಂದಲ ಹಳ್ಳಿ ಸೀತಾರಾಮ ಪಾಳ್"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 0
+  },
+  "reflow320": {
+   "scrollWidth": 368,
+   "horizontalOverflow": true
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_hfw": {
+  "id": "blr_hfw",
+  "requestedUrl": "https://hfwcom.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:53.542Z",
+  "httpStatus": 200,
+  "finalUrl": "https://hfwcom.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-required-children",
+     "impact": "critical",
+     "help": "Certain ARIA roles must contain particular children",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": "#nav-tab"
+    },
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 14,
+     "sample": "#searchBtn"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": "#view_news_btn"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 11,
+     "sample": ".g-img"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav > .nav-item.level_0:nth-child(1) > .nav-link"
+    },
+    {
+     "id": "list",
+     "impact": "serious",
+     "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+     "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 1,
+     "sample": "#newsMarqueePlayPauseKannada"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 20,
+     "sample": "#searchInput"
+    }
+   ],
+   "passes": 30
+  },
+  "probes": {
+   "title": "ಆರೋಗ್ಯ ಮತ್ತು ಕುಟುಂಬ ಕಲ್ಯಾಣ ಸೇವೆಗಳ ಆಯುಕ್ತಾಲಯ - Index",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 4218,
+    "kannada": 27727,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 5577,
+    "links": 391,
+    "formInputs": 0,
+    "h1": 3,
+    "landmarks": 2,
+    "images": 159
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "LOGIN ENGLISH VISUALLY CHALLENGED ಹುಡುಕಿ A ಆರೋಗ್ಯ ಮತ್ತು ಕುಟುಂಬ ಕಲ್ಯಾಣ ಸೇವೆಗಳ ಆಯುಕ್ತಾಲಯ ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಶ್ರೀ ಯು.ಟಿ. ಖಾದ‌ರ್ ಮಾನ್ಯ ಆರೋಗ್ಯ ಮತ್ತು ಕುಟುಂಬ ಕಲ್ಯಾಣ ಇಲಾಖಾ ಸಚಿವರು | ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಕಾಯಿದೆ ಮತ್ತು ನಿಯಮಗಳು ಸಂಕಲನಗಳು ನೀತಿಗಳು ಆರೋಗ್ಯ ಸೂಚಕಗಳು ಮಾಹಿತಿ ಹಕ್ಕು ಸಂಪರ್ಕಿಸಿ × ಸಕಾಲ ಸೇವೆಗಳು ವಿಶೇಷ ನೇರ ನೇಮಕಾತಿ ಬಾಯಿ ಆರೋಗ್ಯ & ರಾಷ್ಟ್ರೀಯ ಬಾಯಿ ಆರೋಗ್ಯ ಕಾರ್ಯಕ್ರಮ ಇ-ಆರೋಗ್ಯ ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ಡಿಜಿಟಲ್ ಮಿಷನ್ ಅಭಿಪ್ರಾಯ ರಾಜ್ಯದಾದ್ಯಂತ "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 19
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "blr_bswml": {
+  "id": "blr_bswml",
+  "requestedUrl": "https://bswml.karnataka.gov.in/",
+  "auditedAt": "2026-11-03T23:59:57.976Z",
+  "httpStatus": 200,
+  "finalUrl": "https://bswml.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-required-children",
+     "impact": "critical",
+     "help": "Certain ARIA roles must contain particular children",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": "#nav-tab"
+    },
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 179,
+     "sample": "button[data-bs-slide-to=\"0\"]"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": "#view_news_btn"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 14,
+     "sample": ".dept_photo"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".level_0.nav-item:nth-child(1) > .nav-link"
+    },
+    {
+     "id": "list",
+     "impact": "serious",
+     "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+     "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 1,
+     "sample": "#newsMarqueePlayPauseKannada"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 49,
+     "sample": ".dropdown.level_0.nav-item:nth-child(2) > .dropdown-toggle[data-bs-auto-close=\"outside\"][role=\"button\"]"
+    }
+   ],
+   "passes": 28
+  },
+  "probes": {
+   "title": "ಬೆಂಗಳೂರು ಘನತ್ಯಾಜ್ಯ ನಿರ್ವಹಣಾ ನಿಯಮಿತ - Index",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 2499,
+    "kannada": 4534,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 1124,
+    "links": 109,
+    "formInputs": 0,
+    "h1": 4,
+    "landmarks": 2,
+    "images": 337
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "LOGIN ENGLISH VISUALLY CHALLENGED ಹುಡುಕಿ A ಬೆಂಗಳೂರು ಘನತ್ಯಾಜ್ಯ ನಿರ್ವಹಣಾ ನಿಯಮಿತ ಕೃಷ್ಣ ಬೈರೇ ಗೌಡ ಬೃಹತ್ ಬೆಂಗಳೂರು ಅಭಿವೃದ್ಧಿ ಮತ್ತು ಸಂಸದೀಯ ವ್ಯವಹಾರಗಳ ಸಚಿವರು ನಮ್ಮ ಬಗ್ಗೆ ಯೋಜನೆಗಳು ಟೆಂಡರ್‌ಗಳು ನಾಗರಿಕ ನೋಂದಣಿ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಆರ್ ಟಿ ಐ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ × ಮಾಧ್ಯಮ ಸಂಪರ್ಕಿಸಿ ಆನ್‌ಲೈನ್ ಸೇವೆಗಳು ಬೃಹತ್ ತ್ಯಾಜ್ಯ ನಿರ್ವಹಣೆ ಆನ್‌ಲೈನ್‌ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ ಖಾಲಿ ಹುದ್ದೆಗಳು ಸ್ವಚ್ಛ ಸರ್ವೇಕ್ಷಣ ಅಭಿಪ್ರಾಯ ರಾಜ್ಯದಾದ್ಯಂತ ಪ್ರಜಾಸೇವೆ ಅಭಿಯಾನ ಸಭೆಗಳನ್ನು ಆಯೋಜಿಸ"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 12,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "blr_ahara": {
+  "id": "blr_ahara",
+  "requestedUrl": "https://ahara.karnataka.gov.in/",
+  "auditedAt": "2026-11-04T00:00:05.784Z",
+  "httpStatus": 200,
+  "finalUrl": "https://ahara.karnataka.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 6,
+     "sample": ".gigw-skip-link"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-prohibited-attr",
+     "impact": "serious",
+     "help": "Elements must only use permitted ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "#heroCarousel"
+    },
+    {
+     "id": "duplicate-id-aria",
+     "impact": "critical",
+     "help": "IDs used in ARIA and labels must be unique",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".nav-menu"
+    }
+   ],
+   "passes": 30
+  },
+  "probes": {
+   "title": "Home | Department of Food, Civil Supplies and Consumer Affairs | Government of Karnataka",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 3320,
+    "kannada": 5,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": true,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 574,
+    "links": 68,
+    "formInputs": 1,
+    "h1": 1,
+    "landmarks": 9,
+    "images": 51
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": true,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": true
+   },
+   "textSample": "Skip to main content Screen Reader Access ಕನ್ನಡ English A- A A+ Normal Yellow on black Pink on black Government of Karnataka Department of Food, Civil Supplies and Consumer Affairs Search menu Home About Us Offerings Documents Media Connect Department of Food, Civil Supplies and Consumer Affairs Identification of ineligible first; issue of new ration card next Utilize \"ONE NATION ONE RATION CARD\" "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 333,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "blr_sevasindhu": {
+  "id": "blr_sevasindhu",
+  "requestedUrl": "https://sevasindhu.karnataka.gov.in/",
+  "auditedAt": "2026-11-04T00:00:08.595Z",
+  "httpStatus": 200,
+  "finalUrl": "https://sevasindhu.karnataka.gov.in/Sevasindhu/Kannada?ReturnUrl=%2F",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 16,
+     "sample": ".blink56_me"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 3,
+     "sample": ".first-div > p:nth-child(1) > a"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 15,
+     "sample": ".ticker-item > a[target=\"_blank\"]:nth-child(1)"
+    }
+   ],
+   "passes": 18
+  },
+  "probes": {
+   "title": "Seva Sindhu Home Page",
+   "htmlLang": "kn",
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": true,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 168,
+    "kannada": 1681,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 308,
+    "links": 63,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 3,
+    "images": 37
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "ಗಮನಿಸಿ: ಬೆಂಬಲಿತ ವೀಕ್ಷಕ ತಂತ್ರಾಂಶ ಆವೃತ್ತಿಗಳು ಇಂಟರ್ನೆಟ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್ 9+, ಮೊಜಿಲ್ಲಾ 50+ ಮತ್ತು ಕ್ರೋಮ್ 52+ ಗ್ರಾಮ ಒನ್ ಫ್ರಾಂಚೈಸಿಗಳಾಗಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ | ಮನೆ ಬಾಗಿಲಲ್ಲಿ ನಾಗರಿಕ ಸೇವೆಗಳನ್ನು ಪಡೆಯಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ | ಖಾತರಿ ಯೋಜನೆಯ ಕರೆ ಕೇಂದ್ರ ಸಂಖ್ಯೆ 1902 English ಕನ್ನಡ ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಮುಖ ಪುಟ ಸೇವಾ ಸಿಂಧು ಬಗ್ಗೆ ಇಲಾಖೆಗಳು ಮತ್ತು ಸೇವೆಗಳು ಸೇವಾ ಕೇಂದ್ರಗಳು ಗ್ರಾಮ ಒನ್ ಜನಸೇವಕ (ನಾಗರಿಕರ ಮನೆ ಬಾಗಿಲಿಗೆ ಸೇವೆಗಳ ವಿತರಣೆ) ಪುನರಾವರ್ತಿತ"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 0
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 3,
+  "status": "audited"
+ },
+ "blr_sakala": {
+  "id": "blr_sakala",
+  "requestedUrl": "https://sakala.kar.nic.in/",
+  "auditedAt": "2026-11-04T00:00:55.501Z",
+  "status": "failed",
+  "error": "page.goto: net::ERR_CONNECTION_RESET at https://sakala.kar.nic.in/"
+ },
+ "hyd_ghmc": {
+  "id": "hyd_ghmc",
+  "requestedUrl": "https://www.ghmc.gov.in/",
+  "auditedAt": "2026-11-04T00:01:34.487Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.ghmc.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-allowed-attr",
+     "impact": "critical",
+     "help": "Elements must only use supported ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-1793750495863578-1"
+    },
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".bn-controls > button:nth-child(1)"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 8,
+     "sample": ".bn-label"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 17,
+     "sample": ".logo > .img-responsive:nth-child(1)"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 9,
+     "sample": "a[href$=\"Disaster.aspx\"]"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 5,
+     "sample": ".quicklinks > .e_services_list > li:nth-child(1) > a[target=\"_blank\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-1793750495863578-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 41,
+     "sample": "a[href$=\"Ghmc_Home.aspx\"]"
+    }
+   ],
+   "passes": 24
+  },
+  "probes": {
+   "title": "Welcome to GHMC",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 3064,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 557,
+    "links": 67,
+    "formInputs": 1,
+    "h1": 1,
+    "landmarks": 2,
+    "images": 35
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "A- A A+ A A GREATER HYDERABAD MUNICIPAL CORPORATION హైదరాబాద్ మహానగర పాలక సంస్థ Toggle main menu visibility Home Our Services Online Services Online Payments 27 erstwhile ULBs Enquiry More Flash News Telangana Means Business Vision-2047 SIR-Absent/Shifted/Dead And Duplicate (ASDD) Electors List Click here to Check your Vote Update Your Mobile Number for Receiving Property Tax Updates GHMC SPORTS C"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 17
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "hyd_ghmc_igs": {
+  "id": "hyd_ghmc_igs",
+  "requestedUrl": "https://igs.ghmc.gov.in/",
+  "auditedAt": "2026-11-04T00:01:37.768Z",
+  "httpStatus": 200,
+  "finalUrl": "https://igs.ghmc.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": ".col-md-2 > .logo > p"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": ".col-md-2 > .logo > img"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 1,
+     "sample": "h3"
+    }
+   ],
+   "passes": 16
+  },
+  "probes": {
+   "title": "Grievances",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 437,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 89,
+    "links": 10,
+    "formInputs": 3,
+    "h1": 1,
+    "landmarks": 1,
+    "images": 6
+   },
+   "authSignals": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "textSample": "CORE URBAN REGION ECONOMY (CURE) Government of Telangana Sri Anumula Revanth Reddy Hon'ble Chief Minister and Minister MA&UD Grievances 16 - 5 = Reset Login Call Center Operator Call Center Feedback Forgot Password IT DEPARTMENT Telangana Secretariate, Tank Bund, Hyderabad - 500 063. POLICIES Privacy policy Key Contacts Feedback Terms & Conditions User Login Agency Login Know your BRS Status REACH"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 19,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 19
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "hyd_ghmc_ptax_search": {
+  "id": "hyd_ghmc_ptax_search",
+  "requestedUrl": "https://www.ghmc.gov.in/Search.aspx",
+  "auditedAt": "2026-11-04T00:01:40.117Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.ghmc.gov.in/Search.aspx",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-allowed-attr",
+     "impact": "critical",
+     "help": "Elements must only use supported ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-1793750501672029-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 4,
+     "sample": ".col-sm-6:nth-child(1) > p"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": ".img-responsive:nth-child(1)"
+    },
+    {
+     "id": "label",
+     "impact": "critical",
+     "help": "Form elements must have labels",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": "#ContentPlaceHolder1_txtptinno"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".ico-facebook > a[target=\"_blank\"]"
+    },
+    {
+     "id": "select-name",
+     "impact": "critical",
+     "help": "Select element must have an accessible name",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "#ContentPlaceHolder1_ddlcircle"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 4,
+     "sample": "li:nth-child(1) > a[href$=\" KeyContacts.aspx\"][target=\"_blank\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-1793750501672029-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 16,
+     "sample": "a[href$=\"Ghmc_Home.aspx\"]"
+    }
+   ],
+   "passes": 25
+  },
+  "probes": {
+   "title": "Welcome to GHMC",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 982,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 156,
+    "links": 13,
+    "formInputs": 7,
+    "h1": 1,
+    "landmarks": 2,
+    "images": 9
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "A- A A+ A A GREATER HYDERABAD MUNICIPAL CORPORATION హైదరాబాద్ మహానగర పాలక సంస్థ Toggle main menu visibility Home Our Services Online Services Online Payments 27 erstwhile ULBs Enquiry More Circle : --Select Circle-- 1-Keesara 2-Alwal 3-Bowenpally 4-Moula Ali 5-Malkajgiri 6-Ghatkesar 7-Kapra 8-Nacharam 9-Uppal 10-Boduppal 11-Nagole 12-Saroornagar 13-LB Nagar 14-Hayathnagar 15-Adibatla 16-Badangpet "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 19
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 2,
+  "status": "audited"
+ },
+ "hyd_ghmc_ptax_page": {
+  "id": "hyd_ghmc_ptax_page",
+  "requestedUrl": "https://www.ghmc.gov.in/PropertyTax.aspx",
+  "auditedAt": "2026-11-04T00:01:44.324Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.ghmc.gov.in/PropertyTax.aspx",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-allowed-attr",
+     "impact": "critical",
+     "help": "Elements must only use supported ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-17937505053873726-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 4,
+     "sample": ".col-sm-6:nth-child(1) > p"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": ".img-responsive:nth-child(1)"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".ico-facebook > a[target=\"_blank\"]"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 4,
+     "sample": "li:nth-child(1) > a[href$=\" KeyContacts.aspx\"][target=\"_blank\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-17937505053873726-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 16,
+     "sample": "a[href$=\"Ghmc_Home.aspx\"]"
+    }
+   ],
+   "passes": 24
+  },
+  "probes": {
+   "title": "Property Tax",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 761,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 152,
+    "links": 13,
+    "formInputs": 1,
+    "h1": 1,
+    "landmarks": 2,
+    "images": 9
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "A- A A+ A A GREATER HYDERABAD MUNICIPAL CORPORATION హైదరాబాద్ మహానగర పాలక సంస్థ Toggle main menu visibility Home Our Services Online Services Online Payments 27 erstwhile ULBs Enquiry More Payment of Tax Dues No manual transactions in Tax assessment, issue of special notice, issue of annual demand notices and receipts 100% computerization of assessments – notices – collection GHMC offers the follo"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 19,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 18
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 2,
+  "status": "audited"
+ },
+ "hyd_ghmc_bnd": {
+  "id": "hyd_ghmc_bnd",
+  "requestedUrl": "https://bnd.ghmc.gov.in/",
+  "auditedAt": "2026-11-04T00:01:47.297Z",
+  "httpStatus": 200,
+  "finalUrl": "https://bnd.ghmc.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 4,
+     "sample": "#Label2"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 2,
+     "sample": "img[src$=\"phone.png\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".social-icons > a[target=\"_blank\"]:nth-child(1)"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 3,
+     "sample": ".goog-te-gadget"
+    }
+   ],
+   "passes": 24
+  },
+  "probes": {
+   "title": "Birth & Death Login",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": true,
+    "urdu": false,
+    "hindi": true,
+    "googleTranslate": true,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 434,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 90,
+    "links": 8,
+    "formInputs": 5,
+    "h1": 1,
+    "landmarks": 1,
+    "images": 7
+   },
+   "authSignals": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "textSample": "Select Language Hindi Telugu Powered by Translate A- A A+ A A GREATER HYDERABAD MUNICIPAL CORPORATION Government of Telangana Sri Anumula Revanth Reddy Hon'ble Chief Minister and Minister MA&UD Birth & Death 13 - 7 = Reset Forgot Password? BIRTH & DEATH GHMC IT DEPARTMENT Tank Bund, Hyderabad - 500 063. POLICIES Privacy policy Key Contacts Feedback Terms & Conditions QUICK LINKS REACH US Off:- 040"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 19,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 19
+  },
+  "reflow320": {
+   "scrollWidth": 383,
+   "horizontalOverflow": true
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "hyd_ghmc_bnd_status": {
+  "id": "hyd_ghmc_bnd_status",
+  "requestedUrl": "https://bnd.ghmc.gov.in/KnowYourApplicationStatus.aspx",
+  "auditedAt": "2026-11-04T00:01:50.096Z",
+  "httpStatus": 200,
+  "finalUrl": "https://bnd.ghmc.gov.in/KnowYourApplicationStatus.aspx",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "button"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 6,
+     "sample": "h3"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "label",
+     "impact": "critical",
+     "help": "Form elements must have labels",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": "#ContentPlaceHolder1_rbtnBirthAppNo"
+    },
+    {
+     "id": "listitem",
+     "impact": "serious",
+     "help": "<li> elements must be contained in a <ul> or <ol>",
+     "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": "li"
+    }
+   ],
+   "incomplete": [],
+   "passes": 14
+  },
+  "probes": {
+   "title": "Health",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 184,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 25,
+    "links": 1,
+    "formInputs": 6,
+    "h1": 0,
+    "landmarks": 2,
+    "images": 1
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Know Your Application Status Birth Application/Acknowledgement Number/Meeseva Transaction No. Death Application/Acknowledgement Number /Meeseva Transaction No. Copyright © 2024 All rights reserved. Designed & Developed by"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 18,
+   "focusOnVisibleElement": 18,
+   "focusRingDetected": 11
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "hyd_ghmc_howdoi": {
+  "id": "hyd_ghmc_howdoi",
+  "requestedUrl": "https://ghmc.gov.in/howdoi.aspx",
+  "auditedAt": "2026-11-04T00:01:52.433Z",
+  "httpStatus": 200,
+  "finalUrl": "https://ghmc.gov.in/howdoi.aspx",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-allowed-attr",
+     "impact": "critical",
+     "help": "Elements must only use supported ARIA attributes",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-17937505133830056-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 8,
+     "sample": "a[href$=\"esevacenters.aspx\"] > strong > font[color=\"#CC6600\"]"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": ".img-responsive:nth-child(1)"
+    },
+    {
+     "id": "link-in-text-block",
+     "impact": "serious",
+     "help": "Links must be distinguishable without relying on color",
+     "tags": [
+      "cat.color",
+      "wcag2a",
+      "wcag141"
+     ],
+     "nodes": 1,
+     "sample": "div[align=\"left\"] > a[href$=\"esevacenters.aspx\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".ico-facebook > a[target=\"_blank\"]"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 4,
+     "sample": "li:nth-child(1) > a[href$=\" KeyContacts.aspx\"][target=\"_blank\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "aria-valid-attr-value",
+     "impact": "critical",
+     "help": "ARIA attributes must conform to valid values",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#sm-17937505133830056-1"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 16,
+     "sample": "a[href$=\"Ghmc_Home.aspx\"]"
+    },
+    {
+     "id": "link-in-text-block",
+     "impact": "serious",
+     "help": "Links must be distinguishable without relying on color",
+     "tags": [
+      "cat.color",
+      "wcag2a",
+      "wcag141"
+     ],
+     "nodes": 4,
+     "sample": "td:nth-child(2) > a[href$=\"esevacenters.aspx\"]"
+    }
+   ],
+   "passes": 26
+  },
+  "probes": {
+   "title": "Welcome to GHMC",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 4158,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 865,
+    "links": 18,
+    "formInputs": 1,
+    "h1": 1,
+    "landmarks": 2,
+    "images": 9
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "A- A A+ A A GREATER HYDERABAD MUNICIPAL CORPORATION హైదరాబాద్ మహానగర పాలక సంస్థ Toggle main menu visibility Home Our Services Online Services Online Payments 27 erstwhile ULBs Enquiry More General FAQs What are the online services provided by www.ghmc.gov.in ? www.ghmc.gov.in is the official portal of Greater Hyderabad Municipal Corporation. It is a one stop place to avail the online services prov"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 19
+  },
+  "reflow320": {
+   "scrollWidth": 834,
+   "horizontalOverflow": true
+  },
+  "scriptErrors": 2,
+  "status": "audited"
+ },
+ "hyd_meeseva": {
+  "id": "hyd_meeseva",
+  "requestedUrl": "https://ts.meeseva.telangana.gov.in/",
+  "auditedAt": "2026-11-04T00:01:55.271Z",
+  "httpStatus": 200,
+  "finalUrl": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".mtb5 > .input-group > .input-group-btn > .btn-primary"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 8,
+     "sample": ".rvfs-decrease"
+    },
+    {
+     "id": "label",
+     "impact": "critical",
+     "help": "Form elements must have labels",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "input[type=\"checkbox\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 4,
+     "sample": ".cd-nav-trigger"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 31,
+     "sample": ".white"
+    },
+    {
+     "id": "duplicate-id-aria",
+     "impact": "critical",
+     "help": "IDs used in ARIA and labels must be unique",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".dropdown:nth-child(3) > .dropdown-toggle[role=\"button\"][data-toggle=\"dropdown\"]"
+    }
+   ],
+   "passes": 29
+  },
+  "probes": {
+   "title": "Welcome to Telangana MeeSeva Portal...",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": true,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 1203,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": true,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 234,
+    "links": 47,
+    "formInputs": 5,
+    "h1": 1,
+    "landmarks": 4,
+    "images": 2
+   },
+   "authSignals": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "skip to content A A Language A- A A+ Sri A. Revanth Reddy Hon'ble Chief Minister Sri D.Sridhar Babu Hon'ble Minister for IT Home (Current) Services Gallery Downloads Other Links Grievance MeeSeva Centres Contact Us Important Alerts ! Citizen Services Search for Service RTA GHMC TGSPDCL Police Registration Revenue Twallet HMWSSB Endowment Other Payments Agriculture CDMA Login Show Password Login Ne"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 15
+  },
+  "reflow320": {
+   "scrollWidth": 337,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 9,
+  "status": "audited"
+ },
+ "hyd_hmwssb": {
+  "id": "hyd_hmwssb",
+  "requestedUrl": "https://www.hyderabadwater.gov.in/en/",
+  "auditedAt": "2026-11-04T00:01:58.015Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.hyderabadwater.gov.in/en/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "button-name",
+     "impact": "critical",
+     "help": "Buttons must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".owl-dot.active[role=\"button\"]"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 13,
+     "sample": ".contact-details > p:nth-child(3) > a"
+    },
+    {
+     "id": "frame-title",
+     "impact": "serious",
+     "help": "Frames must have an accessible name",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "iframe"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": ".owl-item.active > .item > .img-responsive"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".btn.btn-outline-light.btn-sm:nth-child(1)"
+    },
+    {
+     "id": "marquee",
+     "impact": "serious",
+     "help": "<marquee> elements are deprecated and must not be used",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag222"
+     ],
+     "nodes": 1,
+     "sample": "marquee"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 6,
+     "sample": "#quick-links > .list-unstyled.mt-3 > li:nth-child(1) > .confirmation[target=\"_blank\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 1,
+     "sample": ".col-md-2:nth-child(1) > .stat-card > p:nth-child(1) > .text-white"
+    },
+    {
+     "id": "duplicate-id-aria",
+     "impact": "critical",
+     "help": "IDs used in ARIA and labels must be unique",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav:nth-child(1) > .dropdown.nav-item:nth-child(2) > .dropdown-toggle[data-bs-toggle=\"dropdown\"][href=\"#\"]"
+    }
+   ],
+   "passes": 27
+  },
+  "probes": {
+   "title": "Hyderabad Metropolitan Water Supply and Sewerage Board",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 1297,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 226,
+    "links": 46,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 3,
+    "images": 6
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "24 Hours Customer Care:155 313 040- 23300114 & 23433933 customer-support@hyderabadwater.gov.in HOME ABOUT SERVICES RTI FREE WATER SUPPLY MORE CONTACT US STAFF LOGIN WHAT'S NEW Telangana Rising 2047 Demand Survey for Recycled Water Greentanker (Recycled Water) Registration Private STP Registration Apply for New Connection Feasibility ALERT : HMWSSB never send WhatsApp messages, APK files, or links "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 20
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "hyd_hmwssb_grievance": {
+  "id": "hyd_hmwssb_grievance",
+  "requestedUrl": "https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/register-grievances",
+  "auditedAt": "2026-11-04T00:02:02.000Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/register-grievances",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 1,
+     "sample": ".contact-details > p:nth-child(3) > a"
+    },
+    {
+     "id": "frame-title",
+     "impact": "serious",
+     "help": "Frames must have an accessible name",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": "iframe[height=\"492px\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": ".btn.btn-outline-light.btn-sm:nth-child(1)"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "duplicate-id-aria",
+     "impact": "critical",
+     "help": "IDs used in ARIA and labels must be unique",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": ".navbar-nav:nth-child(1) > .dropdown.nav-item:nth-child(2) > .dropdown-toggle[href=\"#\"][role=\"button\"]"
+    }
+   ],
+   "passes": 23
+  },
+  "probes": {
+   "title": "Register Grievances :: Hyderabad Metropolitan Water Supply and Sewerage Board",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 538,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 94,
+    "links": 25,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 3,
+    "images": 2
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "24 Hours Customer Care:155 313 040- 23300114 & 23433933 customer-support@hyderabadwater.gov.in HOME ABOUT SERVICES RTI FREE WATER SUPPLY MORE CONTACT US STAFF LOGIN MAP CONTACT US HYDERABAD METROPOLITAN WATER SUPPLY AND SEWERAGE BOARD Administrative Office Building, Khairatabad, Hyderabad - 4, Telangana www.hyderabadwater.gov.in Phone: 040-23433933 Email: mdhmwssb@hyderabadwater.gov.in SOCIAL MEDI"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 13
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "hyd_tgsrtc": {
+  "id": "hyd_tgsrtc",
+  "requestedUrl": "https://www.tgsrtc.telangana.gov.in/",
+  "auditedAt": "2026-11-04T00:02:07.050Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.tgsrtc.telangana.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-hidden-focus",
+     "impact": "serious",
+     "help": "ARIA hidden element must not be focusable or contain focusable elements",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "div[data-index=\"26\"]"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 51,
+     "sample": ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .home-banner-carousal_scrollTitle__9w3M_ > .home-banner-caro"
+    }
+   ],
+   "passes": 24
+  },
+  "probes": {
+   "title": "TGSRTC",
+   "htmlLang": null,
+   "viewportMeta": "minimum-scale=1, initial-scale=1, width=device-width",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 3355,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 617,
+    "links": 26,
+    "formInputs": 0,
+    "h1": 6,
+    "landmarks": 2,
+    "images": 212
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Home About Us Reservations Logistics Bus Passes Tenders Stalls & Ads. Contact Us TGSRTC serving people since 1932 TGSRTC serving people since 1932 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 TGSRTC - Book Your Ticket Book Your Ticket TGSRTC is dedicated to offering top-notch facilities, punctual services, and affordable ticket prices for a safe and comfortable journey. Sec"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 18
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "hyd_ltmetro": {
+  "id": "hyd_ltmetro",
+  "requestedUrl": "https://www.ltmetro.com/",
+  "auditedAt": "2026-11-04T00:02:09.791Z",
+  "httpStatus": 200,
+  "finalUrl": "https://ltmetro.com/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "aria-command-name",
+     "impact": "serious",
+     "help": "ARIA commands must have an accessible name",
+     "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 4,
+     "sample": "#HomePageCarosule > .elementor-widget-container > .elementor-image-carousel-wrapper.swiper[aria-label=\"Image Carousel\"] "
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 3,
+     "sample": ".elementor-inline-item.elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text"
+    },
+    {
+     "id": "frame-title",
+     "impact": "serious",
+     "help": "Frames must have an accessible name",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "iframe[width=\"340\"]"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": ".img-fluid"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "a[data-fancybox=\"network-map\"]"
+    },
+    {
+     "id": "nested-interactive",
+     "impact": "serious",
+     "help": "Interactive controls must not be nested",
+     "tags": [
+      "cat.keyboard",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 6,
+     "sample": "#menu-item-127 > .hfe-has-submenu-container[aria-haspopup=\"true\"][role=\"button\"]"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 4,
+     "sample": ".elementor-element-daff72c > .elementor-widget-container > .elementor-swiper > .elementor-main-swiper.swiper[aria-label="
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 78,
+     "sample": ".elementor-element-8926b24 > .elementor-widget-container > h2"
+    },
+    {
+     "id": "video-caption",
+     "impact": "critical",
+     "help": "<video> elements must have captions",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag122"
+     ],
+     "nodes": 5,
+     "sample": ".elementor-element-e317a11 > .elementor-background-video-container.elementor-hidden-mobile > video"
+    }
+   ],
+   "passes": 31
+  },
+  "probes": {
+   "title": "Hyderabad Metro Rail | Best Metro Rail Services",
+   "htmlLang": "en-US",
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 1879,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": true,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 375,
+    "links": 92,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 7,
+    "images": 39
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "textSample": "Skip to Content ↵ ENTER Skip to Navigation ↵ ENTER Open Accessibility Toolbar ↵ ENTER Skip to Footer ↵ ENTER Skip to main content Help us serve you better! Kindly provide your feedback: Please CLICK HERE to fill the form. Media Contact Us About Us Travel Fare & Ticketing Metro Student Pass Customer Service Metro Guide Business Opportunities Fare Calculator Tickets Download TSavaari App Travel Advi"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 16
+  },
+  "reflow320": {
+   "scrollWidth": 346,
+   "horizontalOverflow": true
+  },
+  "scriptErrors": 1,
+  "status": "audited"
+ },
+ "hyd_health": {
+  "id": "hyd_health",
+  "requestedUrl": "https://health.telangana.gov.in/",
+  "auditedAt": "2026-11-04T00:03:04.715Z",
+  "httpStatus": 200,
+  "finalUrl": "https://health.telangana.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 1,
+     "sample": "#copyright > p"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 20,
+     "sample": "img[src$=\"logo.png\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 3,
+     "sample": "td:nth-child(1) > a[href=\"index.php\"]"
+    },
+    {
+     "id": "list",
+     "impact": "serious",
+     "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+     "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": "nav > ul"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 7,
+     "sample": "a[href$=\"keycontacts.php\"]"
+    }
+   ],
+   "passes": 12
+  },
+  "probes": {
+   "title": "Department of Health, Medical & Family Welfare, Government of Telangana",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1.0",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 344,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 64,
+    "links": 24,
+    "formInputs": 0,
+    "h1": 2,
+    "landmarks": 2,
+    "images": 20
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Department of Health, Medical & Family Welfare Government of Telangana Key Contacts G.O.s Dept.Login Circular to petitioners in SLPs 5911-5922 of 2022 VC Post Notification & Application Form Addendum to VC Post Notification Previous Next Notifications Your Are Visitor # 2546946 Designed, Developed and Hosted by NIC, Hyderabad. Content owned, maintained and updated by Department of Health, Medical "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 0
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 9,
+  "status": "audited"
+ },
+ "hyd_chfw": {
+  "id": "hyd_chfw",
+  "requestedUrl": "https://chfw.telangana.gov.in/",
+  "auditedAt": "2026-11-04T00:03:06.947Z",
+  "httpStatus": 200,
+  "finalUrl": "https://chfw.telangana.gov.in/home.do",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 7,
+     "sample": "a[href=\"\"]"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 6,
+     "sample": "img[width=\"100%\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 2,
+     "sample": ".w3ls-logo > a[target=\"_blank\"]"
+    },
+    {
+     "id": "marquee",
+     "impact": "serious",
+     "help": "<marquee> elements are deprecated and must not be used",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag222"
+     ],
+     "nodes": 1,
+     "sample": "marquee"
+    },
+    {
+     "id": "target-size",
+     "impact": "serious",
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 2,
+     "sample": "marquee > a[target=\"_blank\"]:nth-child(1)"
+    }
+   ],
+   "incomplete": [],
+   "passes": 23
+  },
+  "probes": {
+   "title": "Commissionerate of Health and Family Welfare",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 2199,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 427,
+    "links": 55,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 1,
+    "images": 6
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Commissionerate of Health and Family Welfare 04 Wednesday,November 2026 About Us ART & Surrogacy NHM Programmes District ROPs Family Planning ANM Applications RTI login The role and responsibility of Commissioner of Health & Family Welfare is implementation of maternal and child health care and family welfare services in the State viz. family planning, antenatal care, postnatal care including immu"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 11
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "hyd_epds": {
+  "id": "hyd_epds",
+  "requestedUrl": "https://epds.telangana.gov.in/",
+  "auditedAt": "2026-11-04T00:03:13.721Z",
+  "httpStatus": 200,
+  "finalUrl": "https://epds.telangana.gov.in/FoodSecurityAct/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 6,
+     "sample": "marquee[behavior=\"alternate\"]"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 3,
+     "sample": "img[width=\"60%\"]"
+    },
+    {
+     "id": "label",
+     "impact": "critical",
+     "help": "Form elements must have labels",
+     "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "#captchab"
+    },
+    {
+     "id": "marquee",
+     "impact": "serious",
+     "help": "<marquee> elements are deprecated and must not be used",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag222"
+     ],
+     "nodes": 2,
+     "sample": "marquee[behavior=\"alternate\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": ".top-right"
+    },
+    {
+     "id": "target-size",
+     "impact": null,
+     "help": "All touch targets must be 24px large, or leave sufficient space",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag22aa",
+      "wcag258"
+     ],
+     "nodes": 0,
+     "sample": null
+    },
+    {
+     "id": "th-has-data-cells",
+     "impact": "serious",
+     "help": "Table headers in a data table must refer to data cells",
+     "tags": [
+      "cat.tables",
+      "wcag2a",
+      "wcag131"
+     ],
+     "nodes": 1,
+     "sample": "#tab"
+    }
+   ],
+   "passes": 16
+  },
+  "probes": {
+   "title": "FOOD SECURITY ACT",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": false,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 608,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 115,
+    "links": 12,
+    "formInputs": 6,
+    "h1": 1,
+    "landmarks": 0,
+    "images": 5
+   },
+   "authSignals": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "textSample": "× Welcome to NATIONAL FOOD SECURITY CARDS .. Users who are not able to Login in Google chrome Please Download Google Chrome Browser Settings FSC Search Deepam Search Reports Electronic Point Of Sales(ePos) Portal Supply Chain Management SMS Registration Grievance Redressal System for E2E PDS Download Mobile Applications Toll Free Consumer help line Services : 1967 & 180042500333 Download Mobile Ap"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 19,
+   "focusOnVisibleElement": 19,
+   "focusRingDetected": 19
+  },
+  "reflow320": {
+   "scrollWidth": 320,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ },
+ "hyd_civilsupplies": {
+  "id": "hyd_civilsupplies",
+  "requestedUrl": "https://civilsupplies.telangana.gov.in/",
+  "auditedAt": "2026-11-04T00:03:15.854Z",
+  "httpStatus": 200,
+  "finalUrl": "https://civilsupplies.telangana.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [
+    {
+     "id": "blink",
+     "impact": "serious",
+     "help": "<blink> elements are deprecated and must not be used",
+     "tags": [
+      "cat.time-and-media",
+      "wcag2a",
+      "wcag222"
+     ],
+     "nodes": 8,
+     "sample": "a[href$=\"bis.gov.in/\"][target=\"_blank\"] > h2 > font > blink"
+    },
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 2,
+     "sample": ".mt-label"
+    },
+    {
+     "id": "html-has-lang",
+     "impact": "serious",
+     "help": "<html> element must have a lang attribute",
+     "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+     ],
+     "nodes": 1,
+     "sample": "html"
+    },
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111"
+     ],
+     "nodes": 18,
+     "sample": "img[src$=\"fsc.jpg\"]"
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag244",
+      "wcag412"
+     ],
+     "nodes": 1,
+     "sample": "a[href$=\"#menu\"]"
+    },
+    {
+     "id": "marquee",
+     "impact": "serious",
+     "help": "<marquee> elements are deprecated and must not be used",
+     "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag222"
+     ],
+     "nodes": 1,
+     "sample": "marquee[bgcolor=\"#003366\"]"
+    },
+    {
+     "id": "meta-viewport",
+     "impact": "critical",
+     "help": "Zooming and scaling must not be disabled",
+     "tags": [
+      "cat.sensory-and-visual-cues",
+      "wcag2aa",
+      "wcag144"
+     ],
+     "nodes": 1,
+     "sample": "meta[name=\"viewport\"]"
+    }
+   ],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 10,
+     "sample": ".mt-news > ul:nth-child(1) > li:nth-child(1) > a[target=\"_blank\"]"
+    }
+   ],
+   "passes": 12
+  },
+  "probes": {
+   "title": "Civil Supplies Department -Telangana - India",
+   "htmlLang": null,
+   "viewportMeta": "width=device-width, initial-scale=1, maximum-scale=1",
+   "zoomBlocked": true,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 1125,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": false,
+   "accessibilityWidget": false,
+   "counts": {
+    "words": 222,
+    "links": 30,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 3,
+    "images": 29
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "CONSUMER AFFAIRS, FOOD AND CIVIL SUPPLIES DEPARTMENT GOVERNMENT OF TELANGANA - INDIA Menu Sri A.Revanth Reddy HON’BLE CHIEF MINISTER Telangana Sri Capt. N.Uttam Kumar Reddy Hon'ble Minister for Irrigation & CAD and Food & Civil Supplies Food Security Card Electronic Point of Sale Supply Chain Management Grievance Redressal System for E2E PDS Online Procurement Management System Bureau of Indian St"
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 0
+  },
+  "reflow320": {
+   "scrollWidth": 322,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 3,
+  "status": "audited"
+ },
+ "national_digilocker": {
+  "id": "national_digilocker",
+  "requestedUrl": "https://www.digilocker.gov.in/",
+  "auditedAt": "2026-11-04T00:03:19.403Z",
+  "httpStatus": 200,
+  "finalUrl": "https://www.digilocker.gov.in/",
+  "httpsFinal": true,
+  "axe": {
+   "version": "4.10.3",
+   "violations": [],
+   "incomplete": [
+    {
+     "id": "color-contrast",
+     "impact": "serious",
+     "help": "Elements must meet minimum color contrast ratio thresholds",
+     "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
+     ],
+     "nodes": 14,
+     "sample": ".col-7 > sup > .fas"
+    }
+   ],
+   "passes": 25
+  },
+  "probes": {
+   "title": "DigiLocker | Access, Share & Verify Digital Documents",
+   "htmlLang": "en",
+   "viewportMeta": "width=device-width, initial-scale=1, minimum-scale=1",
+   "zoomBlocked": false,
+   "languageControls": {
+    "english": true,
+    "kannada": false,
+    "telugu": false,
+    "urdu": false,
+    "hindi": false,
+    "googleTranslate": false,
+    "bhashini": false
+   },
+   "scriptChars": {
+    "latin": 2761,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "skipLink": true,
+   "accessibilityWidget": true,
+   "counts": {
+    "words": 465,
+    "links": 76,
+    "formInputs": 0,
+    "h1": 0,
+    "landmarks": 2,
+    "images": 86
+   },
+   "authSignals": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "textSample": "Government of India  Skip to main content | A+ A A- | English Explore DigiLocker Become a Partner Login / Register New in DigiLocker Marriage Certificate REGISTRAR GENERAL OF MARRIAGES WEST BENGAL Available Now Water Bill Hyderabad Metropolitan Water Supply & Sewerage Board Available Now Various Certificates Directorate of Municipal Administration, Chennai Available Now Birth & Death Certificate "
+  },
+  "keyboard": {
+   "tabPresses": 20,
+   "focusLanded": 20,
+   "focusOnVisibleElement": 20,
+   "focusRingDetected": 6
+  },
+  "reflow320": {
+   "scrollWidth": 321,
+   "horizontalOverflow": false
+  },
+  "scriptErrors": 0,
+  "status": "audited"
+ }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+dist/
+audit/node_modules/
+# Raw source files contain operators' names and phone numbers. See data/metadata/data_quality_report.md
+data/raw/
+.playwright-mcp/
+audit/.wave_key

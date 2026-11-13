@@ -1,0 +1,23 @@
+source,url,type,status,notes,licence_or_terms
+OpenCity Urban Data Portal,https://data.opencity.in/,Republisher,Used,CKAN API reachable. Main source of facility layers.,"Records its own origin notes; many sets tagged other-pd, some unspecified"
+"Census of India, NADA catalogue",https://censusindia.gov.in/nada/index.php/catalog,Primary,Used,"C-16 town tables, C-20 City, PCA by district, PCA Slum, downloaded with verified TLS.",Government publication; check terms before reuse
+OpenStreetMap via Overpass,https://overpass-api.de/,Community,Used,"Same query, same day for both cities. First host attempts failed, then succeeded.",ODbL 1.0
+DataMeet Municipal Spatial Data,https://github.com/datameet/Municipal_Spatial_Data,Community,"Downloaded, not used in final analysis",Older ward boundaries kept as a reference; GBA and GHMC maps from OpenCity were preferred.,See repository
+Hyderabad Metro GTFS (HMRL / Open Data Telangana),https://data.opencity.in/dataset/hyderabad-metro-rail-gtfs,"Official, via OpenCity",Used,Feed dated July 2026.,OpenCity tag other-pd
+data.gov.in,https://www.data.gov.in/,Primary,Not used,"Site reachable. Download API needs a key, and OpenCity and Census served the needed sets faster.",Open Government Data licence
+Telangana Open Data,https://data.telangana.gov.in/,Primary,Unavailable,"Connection reset for the API probe. Its sets were used through OpenCity, where it is named as origin.",Not verified
+Geofabrik extracts,https://download.geofabrik.de/asia/india.html,Community,Not used,Intermittent timeouts and resets. Regional PBF was unnecessary once Overpass worked.,ODbL 1.0
+BBMP site,https://bbmp.gov.in/,Primary,Superseded,First run: certificate authority error. Later run: redirected to GBA. The body was replaced in 2025.,n/a
+Greater Bengaluru Authority,https://gba.karnataka.gov.in/,Primary,Audited,Portal audited; ward maps used through OpenCity.,n/a
+GHMC,https://www.ghmc.gov.in/,Primary,Audited,Portal audited; no bulk dataset download confirmed.,n/a
+Karnataka KGIS / KSRSAC,https://data.opencity.in/dataset/grama-one-centres-in-karnataka-and-bengaluru,Origin via OpenCity,Used through OpenCity,Not contacted directly.,See OpenCity
+AIKosh fair price shop transactions (Telangana),https://aikosh.indiaai.gov.in/home/datasets/details/telangana_state_civil_supplies_fair_price_shop_transactions.html,Official,Unverified,Found by search. Described as transactions; location fields not confirmed and not downloaded.,Described as Open Government Licence
+MeeSeva centre locations,https://ts.meeseva.telangana.gov.in/,Primary,Unavailable,No location dataset found by search or on OpenCity.,n/a
+Ration shop locations for either city,https://ahara.karnataka.gov.in/,Primary,Unavailable,No verified location dataset found.,n/a
+BMRCL official GTFS,https://www.bmrc.co.in/,Primary,Unavailable,None found on OpenCity. OSM used and labelled accordingly.,n/a
+WorldPop,https://www.worldpop.org/,Academic,Not investigated in depth,Planned for population weighting in the next phase.,See source
+Humanitarian Data Exchange,https://data.humdata.org/,Aggregator,Not investigated in depth,Not prioritised today.,See source
+WCAG 2.2,https://www.w3.org/TR/WCAG22/,Standard,Used,Rule reference for the audit.,W3C
+axe-core,https://www.deque.com/axe/,Tool,Used,Automated audit engine.,MPL 2.0
+Guidelines for Indian Government Websites,https://guidelines.india.gov.in/,Standard,"Reachable, not yet applied",To be read closely in the next phase.,Government of India
+Academic literature via academic-search MCP,https://doi.org/10.1109/icadw.2016.7942530,Secondary,Leads only,"Crossref metadata for leads such as Ismail & Kuppusamy (2016). Papers have not been read, so none is cited as support.",See publishers

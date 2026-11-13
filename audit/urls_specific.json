@@ -1,0 +1,13 @@
+[
+ {"id":"hyd_pt_pay","url":"https://onlinepayments.ghmc.gov.in/"},
+ {"id":"hyd_griev_otp","url":"https://igs.ghmc.gov.in/operator/send_otp_mobile"},
+ {"id":"blr_sahaaya","url":"https://bbmp.sahaaya.in/"},
+ {"id":"hyd_birth","url":"https://bnd.ghmc.gov.in/Birth_Certificate.aspx"},
+ {"id":"hyd_death","url":"https://bnd.ghmc.gov.in/Death_Certificate.aspx"},
+ {"id":"blr_ejanma_dl","url":"https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx"},
+ {"id":"hyd_trade_new","url":"https://sa.ghmc.gov.in/TradeNewApplicationEntry.aspx"},
+ {"id":"blr_trade_apply","url":"https://sevaone.karnataka.gov.in/services/directApply.do?serviceId=1649"},
+ {"id":"hyd_build_app","url":"https://app.buildnow.telangana.gov.in/"},
+ {"id":"blr_bpas","url":"https://bpas.bbmpgov.in/BPAMSClient4/Default.aspx"},
+ {"id":"hyd_pet","url":"https://petanimal.ghmc.gov.in/Login/Login"}
+]

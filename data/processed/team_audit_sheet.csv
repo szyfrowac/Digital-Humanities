@@ -1,0 +1,18 @@
+,,,LIGHTHOUSE,LIGHTHOUSE,LIGHTHOUSE,WAVE,WAVE,WAVE,WAVE,WAVE,WAVE,LIGHTHOUSE,LIGHTHOUSE,,
+Civic Body,Serial Number,Civic Service,Accessibility Score,Missing [alt] Attributes,Contrast Errors,Accessibility Score (WAVE),WCAG Errors,Contrast Errors (WAVE),Missing [alt] Attributes (WAVE),Missing Form Label,Empty Button,Lang Attribute,Document Main Landmark,Page Audited (Lighthouse),Lighthouse Status
+GHMC,1,Property Tax Payment,80,3,3,,,,,,,No,Yes,https://onlinepayments.ghmc.gov.in/,Audited
+GHMC,2,Civic Grievance Redressal,91,0,1,,,,,,,Yes,Yes,https://igs.ghmc.gov.in/operator/send_otp_mobile,Audited
+GHMC,3,Birth Certificate,72,0,6,,,,,,,No,Yes,https://bnd.ghmc.gov.in/Birth_Certificate.aspx,Audited
+GHMC,4,Death Certificate,72,0,6,,,,,,,No,Yes,https://bnd.ghmc.gov.in/Death_Certificate.aspx,Audited
+GHMC,5,Trade Licence Portal,75,3,2,,,,,,,No,Yes,https://sa.ghmc.gov.in/TradeNewApplicationEntry.aspx,Audited
+GHMC,6,Building Plan,,,,,,,,,,,,https://app.buildnow.telangana.gov.in/login,Not scored: Runtime error encountered: Lighthouse was unable to reliably load the page you r
+GHMC,7,Pet Dog Licences,57,1,1,,,,,,,No,Yes,https://petanimal.ghmc.gov.in/Login/Login,Audited
+GHMC,8,E-Waste Doorstep Pickup,,,,,,,,,,,,,No web page found
+BBMP / GBA,1,Property Tax Payment,90,0,2,,,,,,,Yes,Not applicable,https://bbmptax.karnataka.gov.in/,Audited
+BBMP / GBA,2,Civic Grievance Redressal,,,,,,,,,,,,https://bbmp.sahaaya.in/,Not scored: Runtime error encountered: The URL you have provided does not have a valid secur
+BBMP / GBA,3,Birth Certificate,93,0,2,,,,,,,Yes,Not applicable,https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx,Audited
+BBMP / GBA,4,Death Certificate,93,0,2,,,,,,,Yes,Not applicable,https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx,Audited
+BBMP / GBA,5,Trade Licence Portal,67,0,8,,,,,,,No,Yes,https://sevaone.karnataka.gov.in/services/loginWindow.do,Audited
+BBMP / GBA,6,Building Plan,63,2,20,,,,,,,No,Yes,https://bpas.bbmpgov.in/BPAMSClient4/NewDefault1.aspx,Audited
+BBMP / GBA,7,Pet Dog Licences,,,,,,,,,,,,,No web page found
+BBMP / GBA,8,E-Waste Doorstep Pickup,,,,,,,,,,,,,No web page found

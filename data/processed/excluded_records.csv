@@ -1,0 +1,566 @@
+city,layer,name,lat,lon,reason
+bengaluru,bus_stops,Balenahalli,12.8957071402837,77.1934550997383,outside city bounding box
+bengaluru,bus_stops,Balenahalli,12.8957568199189,77.1935248297947,outside city bounding box
+bengaluru,bus_stops,Heligehalli,12.8918140302902,77.1926584796337,outside city bounding box
+bengaluru,bus_stops,Heligehalli,12.8917826597912,77.1925914296999,outside city bounding box
+bengaluru,bus_stops,Huluvenahalli,12.8893536799984,77.1839117996924,outside city bounding box
+bengaluru,bus_stops,Huluvenahalli,12.889479180398,77.1838930197705,outside city bounding box
+bengaluru,bus_stops,Mattikere Aarlimara,12.8899602796856,77.177927789751,outside city bounding box
+bengaluru,bus_stops,Mattikere Aarlimara,12.890017799771,77.1778231803218,outside city bounding box
+bengaluru,bus_stops,Mattikere,12.883065429968,77.1824339003976,outside city bounding box
+bengaluru,bus_stops,Mattikere Magadi,12.8830758901335,77.182350750151,outside city bounding box
+bengaluru,bus_stops,Gollarahatti,12.8803696798254,77.1918940503654,outside city bounding box
+bengaluru,bus_stops,Gollarahatti,12.8803173798879,77.1920093896388,outside city bounding box
+bengaluru,bus_stops,Chandurayanahalli,12.972881310391,77.1965765200091,outside city bounding box
+bengaluru,bus_stops,Chandurayanahalli,12.9729152900025,77.1966227799845,outside city bounding box
+bengaluru,bus_stops,Kalya,12.9797547301638,77.1823916602309,outside city bounding box
+bengaluru,bus_stops,Kalya,12.9794868297874,77.182333320208,outside city bounding box
+bengaluru,bus_stops,Basavapatna,12.9702380898926,77.1766523896046,outside city bounding box
+bengaluru,bus_stops,Basavapatna,12.9701753600237,77.1766510699388,outside city bounding box
+bengaluru,bus_stops,Sripathyhalli,12.9626138804311,77.1678064698779,outside city bounding box
+bengaluru,bus_stops,Sripathyhalli,12.962647700299,77.1677897301942,outside city bounding box
+bengaluru,bus_stops,Kalya Cross,12.9848305097606,77.1840720599604,outside city bounding box
+bengaluru,bus_stops,Kalya Cross,12.9848671002087,77.1841102798775,outside city bounding box
+bengaluru,bus_stops,Biskur,13.08797699978,77.1403399800747,outside city bounding box
+bengaluru,bus_stops,Biskur,13.0880429698752,77.1403299201075,outside city bounding box
+bengaluru,bus_stops,Sanjeevanapalya,13.0808479400511,77.1546106804212,outside city bounding box
+bengaluru,bus_stops,Sanjeevanapalya,13.0807976501608,77.1545436202272,outside city bounding box
+bengaluru,bus_stops,Maruru,13.0669922303305,77.1614905400314,outside city bounding box
+bengaluru,bus_stops,Maruru,13.0669987598221,77.1614147704333,outside city bounding box
+bengaluru,bus_stops,Maruru Handpost,13.0569753599099,77.1595010197868,outside city bounding box
+bengaluru,bus_stops,Maruru Handpost,13.0581400400118,77.1595419201026,outside city bounding box
+bengaluru,bus_stops,Shivanasandra,13.0235350003807,77.1639896896214,outside city bounding box
+bengaluru,bus_stops,Shivanasandra,13.023604899698,77.1640131701748,outside city bounding box
+bengaluru,bus_stops,Kaleri,13.0090495100335,77.1681544903272,outside city bounding box
+bengaluru,bus_stops,Kaleri,13.0089044601975,77.1682550804253,outside city bounding box
+bengaluru,bus_stops,Mallasandra,13.0352059698814,77.158235009893,outside city bounding box
+bengaluru,bus_stops,Mallasandra,13.0351648303171,77.1580526201534,outside city bounding box
+bengaluru,namma_clinics, Hoskerehalli Nc,12.92817,77.0545915,outside city bounding box
+bengaluru,slums,Kempegowda Nagara,13.9488,77.5634,outside city bounding box
+bengaluru,slums,Munibairappa block,13.010769,77.069764,outside city bounding box
+bengaluru,slums,chakarmandi 2,13.012549,77.064531,outside city bounding box
+bengaluru,slums,CHAKRAMANDI1,13.012549,77.064531,outside city bounding box
+bengaluru,slums,chakarmandi 3,13.012549,77.064531,outside city bounding box
+bengaluru,slums,telugu colony,13.50919876,77.53366509,outside city bounding box
+bengaluru,slums,AMBEDKAR SLUM,12.951437,77.0552468,outside city bounding box
+bengaluru,slums,HEROHALLI,12.287766,77.493465,outside city bounding box
+bengaluru,slums,shirke shivanpalya,12.921785,77.0487631,outside city bounding box
+bengaluru,slums,"Sadguru slum, Near Chaitanya School Kudlu",11.888492,77.656887,outside city bounding box
+hyderabad,bus_stops,Kadthal-Rr,16.98566224,78.50180176,outside city bounding box
+hyderabad,bus_stops,Kadthal Toll,16.97051428,78.50782871,outside city bounding box
+hyderabad,bus_stops,Maisigandi,16.95444447,78.51728216,outside city bounding box
+hyderabad,bus_stops,Karkalpahad,16.92558466,78.52734547,outside city bounding box
+hyderabad,bus_stops,Konapur-Amangal,16.90166651,78.53077233,outside city bounding box
+hyderabad,bus_stops,Vithaipalle,16.88332743,78.52916703,outside city bounding box
+hyderabad,bus_stops,Amangal,16.84942376,78.53036597,outside city bounding box
+hyderabad,bus_stops,Amangal,16.84922355,78.53005351,outside city bounding box
+hyderabad,bus_stops,Vithaipalle,16.87763366,78.52913618,outside city bounding box
+hyderabad,bus_stops,Konapur-Amangal,16.90169798,78.53074686,outside city bounding box
+hyderabad,bus_stops,Karkalpahad,16.92565491,78.52727842,outside city bounding box
+hyderabad,bus_stops,Maisigandi,16.95396758,78.51762816,outside city bounding box
+hyderabad,bus_stops,Kadthal Toll,16.970404,78.50755,outside city bounding box
+hyderabad,bus_stops,Kadthal-Rr,16.9776065,78.50422271,outside city bounding box
+hyderabad,bus_stops,Chinthalapally,16.84517784,78.49590361,outside city bounding box
+hyderabad,bus_stops,Khanapur-Thalakondapally,16.85439855,78.46602917,outside city bounding box
+hyderabad,bus_stops,Venkatraopeta-Thalakondapally,16.82897858,78.4529829,outside city bounding box
+hyderabad,bus_stops,Gattu Ippalapalle,16.79763901,78.44519107,outside city bounding box
+hyderabad,bus_stops,Bommarasipalle,16.78204699,78.40229988,outside city bounding box
+hyderabad,bus_stops,Ramreddipalle-Urkonda,16.76341286,78.39157909,outside city bounding box
+hyderabad,bus_stops,Khanapur-Thalakondapally,16.855,78.464,outside city bounding box
+hyderabad,bus_stops,Chinthalapally,16.84522933,78.49609096,outside city bounding box
+hyderabad,bus_stops,Mall-Yacharam,16.96731099,78.72964002,outside city bounding box
+hyderabad,bus_stops,Marriguda X Road Twd Mall Bus Station,16.97352603,78.73019993,outside city bounding box
+hyderabad,bus_stops,Thammaloniguda X Road,16.98682316,78.71102482,outside city bounding box
+hyderabad,bus_stops,Marriguda X Road Twd Hyderabad,16.97358246,78.72994781,outside city bounding box
+hyderabad,bus_stops,Mile Stone,18.31318979,79.47100064,outside city bounding box
+hyderabad,bus_stops,Jalalpur-Narayanpet,16.722989,77.436724,outside city bounding box
+hyderabad,bus_stops,Mile Stone,18.117315,78.035147,outside city bounding box
+hyderabad,bus_stops,Thammaloniguda X Road,16.98679494,78.711171,outside city bounding box
+hyderabad,bus_stops,Mall Bs,16.96738443,78.72971714,outside city bounding box
+hyderabad,bus_stops,Sarampet-Marriguda,16.99332452,78.89858902,outside city bounding box
+hyderabad,bus_stops,Sarampet-Marriguda,16.98998468,78.89451202,outside city bounding box
+hyderabad,bus_stops,Nanaknagar-Yacharam,16.992,78.626,outside city bounding box
+hyderabad,bus_stops,Nanaknagar-Yacharam,16.99211379,78.6262536,outside city bounding box
+hyderabad,bus_stops,Chukkapur,16.88053407,78.46419184,outside city bounding box
+hyderabad,bus_stops,Talakondapalle,16.88692737,78.41794791,outside city bounding box
+hyderabad,bus_stops,Chandradana,16.8541471,78.38835709,outside city bounding box
+hyderabad,bus_stops,Veljala,16.81999589,78.36293377,outside city bounding box
+hyderabad,bus_stops,Vemula,16.78404997,78.33962203,outside city bounding box
+hyderabad,bus_stops,Midjil,16.74509601,78.32311573,outside city bounding box
+hyderabad,bus_stops,Thakkellapalle,16.99459423,78.67902875,outside city bounding box
+hyderabad,bus_stops,Kothapalle-Yacharam,16.97290517,78.68012844,outside city bounding box
+hyderabad,bus_stops,Kothapalle-Yacharam,16.97306556,78.68009491,outside city bounding box
+hyderabad,bus_stops,Thakkellapalle,16.99459809,78.67903814,outside city bounding box
+hyderabad,bus_stops,Vemulanarva-Keshampet,16.97947244,78.31276775,outside city bounding box
+hyderabad,bus_stops,Chintakuntapalle-Keshampeta,16.95907732,78.30903143,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.943,78.314,outside city bounding box
+hyderabad,bus_stops,Kondareddipally-Keshampeta,16.93148258,78.29020768,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.91325579,78.2830596,outside city bounding box
+hyderabad,bus_stops,Pedda Revalle,16.91,78.263,outside city bounding box
+hyderabad,bus_stops,Modampalle,16.90050667,78.26209545,outside city bounding box
+hyderabad,bus_stops,Chinna Revalli,16.89367977,78.2740581,outside city bounding box
+hyderabad,bus_stops,Nallavelly-Yacharam,16.99951913,78.73191925,outside city bounding box
+hyderabad,bus_stops,Tirugundla Pally-Marriguda,16.96444963,78.77377903,outside city bounding box
+hyderabad,bus_stops,Yergandla Palle-Marriguda,16.95877958,78.82008612,outside city bounding box
+hyderabad,bus_stops,Konduru-Veepanagandla,16.09897426,78.22096109,outside city bounding box
+hyderabad,bus_stops,Marriguda-Mall,16.9409962,78.8584355,outside city bounding box
+hyderabad,bus_stops,Vattipalle,16.94284681,78.87439012,outside city bounding box
+hyderabad,bus_stops,Damera Bhemanapally-Marriguda,16.95210395,78.92927889,outside city bounding box
+hyderabad,bus_stops,Neralla Palli-Nampally,16.94200523,78.99210691,outside city bounding box
+hyderabad,bus_stops,Thummalapalle-Chandur,16.95015404,79.00764227,outside city bounding box
+hyderabad,bus_stops,Bangarigadda-Chandur,16.98494927,79.01903363,outside city bounding box
+hyderabad,bus_stops,Angadipeta,16.98364871,79.03501958,outside city bounding box
+hyderabad,bus_stops,Chandur-Nalgonda,16.9806076,79.06269327,outside city bounding box
+hyderabad,bus_stops,Alwal X Roads-Keshampeta,16.99995004,78.34556043,outside city bounding box
+hyderabad,bus_stops,Kothapeta,16.98555401,78.36735539,outside city bounding box
+hyderabad,bus_stops,Patigadda-Keshampeta,16.97386462,78.36117625,outside city bounding box
+hyderabad,bus_stops,Keshampeta-Keshampet,16.95296604,78.34731714,outside city bounding box
+hyderabad,bus_stops,Ms Twd Chowlapalle,16.951,78.367,outside city bounding box
+hyderabad,bus_stops,Chowlapalle East,16.9512393,78.3896267,outside city bounding box
+hyderabad,bus_stops,Keshampeta,16.95289421,78.34810348,outside city bounding box
+hyderabad,bus_stops,Kothapeta,16.98551875,78.3673132,outside city bounding box
+hyderabad,bus_stops,Alwal-Keshampeta,16.99135193,78.34424346,outside city bounding box
+hyderabad,bus_stops,Alwal X Roads-Keshampeta,16.99991416,78.34550677,outside city bounding box
+hyderabad,bus_stops,Kothapeta-Keshampeta,16.98606501,78.36649221,outside city bounding box
+hyderabad,bus_stops,Ms Twd Afzalgunj,16.95096863,78.36707845,outside city bounding box
+hyderabad,bus_stops,Patigadda-Keshampeta,16.97480037,78.3475969,outside city bounding box
+hyderabad,bus_stops,Polepalle Ramnagar,16.95348428,78.72608542,outside city bounding box
+hyderabad,bus_stops,Madnapur-Chintapally,16.92638011,78.73161882,outside city bounding box
+hyderabad,bus_stops,Kurmed Gate,16.89113,78.753828,outside city bounding box
+hyderabad,bus_stops,Kurmed,16.88071861,78.74765307,outside city bounding box
+hyderabad,bus_stops,New Bhramanapalle-Madgul,16.83475821,78.73048425,outside city bounding box
+hyderabad,bus_stops,Old Brahmanapalle-Madgul,16.83232125,78.72615245,outside city bounding box
+hyderabad,bus_stops,Irvin,16.79055959,78.70550212,outside city bounding box
+hyderabad,bus_stops,Girikothapalle,16.76729081,78.70951473,outside city bounding box
+hyderabad,bus_stops,Agraharam Thanda,16.749544,78.70984735,outside city bounding box
+hyderabad,bus_stops,Ramadugula Madgul,16.76008183,78.70659104,outside city bounding box
+hyderabad,bus_stops,Sirsinagandla Gutta-Vangoor,16.73400437,78.71430246,outside city bounding box
+hyderabad,bus_stops,Sirsangandla-Vangoor,16.73021825,78.74705495,outside city bounding box
+hyderabad,bus_stops,Charakonda,16.691725,78.707016,outside city bounding box
+hyderabad,bus_stops,Charakonda,16.691765,78.706886,outside city bounding box
+hyderabad,bus_stops,Sirsangandla-Vangoor,16.73018485,78.74710592,outside city bounding box
+hyderabad,bus_stops,Sirsinagandla Gutta-Vangoor,16.73415849,78.71421397,outside city bounding box
+hyderabad,bus_stops,Agraharam Thanda,16.74948253,78.70988489,outside city bounding box
+hyderabad,bus_stops,Ramadugula Madgul,16.7601229,78.70658442,outside city bounding box
+hyderabad,bus_stops,Girikothapalle,16.7671624,78.70938062,outside city bounding box
+hyderabad,bus_stops,Irvin,16.79059041,78.70563493,outside city bounding box
+hyderabad,bus_stops,Old Brahmanapalle-Madgul,16.83227943,78.72637424,outside city bounding box
+hyderabad,bus_stops,New Bhramanapalle-Madgul,16.83402081,78.73485896,outside city bounding box
+hyderabad,bus_stops,Kurmaidu,16.88073425,78.74740363,outside city bounding box
+hyderabad,bus_stops,Kurmed Gate,16.89072326,78.75344933,outside city bounding box
+hyderabad,bus_stops,Madnapur-Chintapally,16.92631178,78.7315895,outside city bounding box
+hyderabad,bus_stops,Polepalle Ramnagar,16.95349197,78.72605324,outside city bounding box
+hyderabad,bus_stops,Anthampet,16.76789049,78.78198811,outside city bounding box
+hyderabad,bus_stops,Andugula-Madgul,16.75889255,78.76914561,outside city bounding box
+hyderabad,bus_stops,Kubya Tanda,16.78110451,78.7696928,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.78377006,78.75071616,outside city bounding box
+hyderabad,bus_stops,Chetla Tanda,16.79033028,78.75053582,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.79991073,78.75356134,outside city bounding box
+hyderabad,bus_stops,Arkapalle-Madgul,16.81963827,78.76389424,outside city bounding box
+hyderabad,bus_stops,Nallacheruvu,16.83206451,78.70017511,outside city bounding box
+hyderabad,bus_stops,Madgul,16.8508151,78.68856669,outside city bounding box
+hyderabad,bus_stops,Pedda Madgul,16.86490761,78.69518906,outside city bounding box
+hyderabad,bus_stops,Narsaiahpally-Madgul,16.89100688,78.71458211,outside city bounding box
+hyderabad,bus_stops,Kolkulapally-Madgul,16.91230378,78.72335516,outside city bounding box
+hyderabad,bus_stops,Manthangowrelly,16.99793651,78.77911806,outside city bounding box
+hyderabad,bus_stops,Ajilapur-Marriguda,16.98296122,78.80368708,outside city bounding box
+hyderabad,bus_stops,Alwal X Roads-Keshampeta,16.99973976,78.34553628,outside city bounding box
+hyderabad,bus_stops,Alwal-Keshampeta,16.9913263,78.34428635,outside city bounding box
+hyderabad,bus_stops,Patigadda,16.97383645,78.36123392,outside city bounding box
+hyderabad,bus_stops,Keshampeta-Keshampet,16.95305835,78.34669768,outside city bounding box
+hyderabad,bus_stops,Sundarapuram X Road,16.92894995,78.33777138,outside city bounding box
+hyderabad,bus_stops,Kakunoor,16.91526262,78.33434351,outside city bounding box
+hyderabad,bus_stops,Thommidi Rekula ( 9 Rekula ),16.87911463,78.3241497,outside city bounding box
+hyderabad,bus_stops,Lingamdana,16.86982114,78.32566379,outside city bounding box
+hyderabad,bus_stops,Kakunoor,16.91520615,78.3343757,outside city bounding box
+hyderabad,bus_stops,Kolkulapally-Madgul,16.91227552,78.72319938,outside city bounding box
+hyderabad,bus_stops,Narsaiahpally-Madgul,16.89097475,78.7146002,outside city bounding box
+hyderabad,bus_stops,Old Brahmanapalle-Madgul,16.83181387,78.7293148,outside city bounding box
+hyderabad,bus_stops,Arkapalle-Madgul,16.81975611,78.76388316,outside city bounding box
+hyderabad,bus_stops,Asireddypally-Madgul,16.80588659,78.78849511,outside city bounding box
+hyderabad,bus_stops,Palle Thanda-Madgul,16.795,78.782,outside city bounding box
+hyderabad,bus_stops,Palugu Tanda,16.79984191,78.75359091,outside city bounding box
+hyderabad,bus_stops,Jugu Tanda,16.79345725,78.77002068,outside city bounding box
+hyderabad,bus_stops,Kubya Tanda,16.78108855,78.76976553,outside city bounding box
+hyderabad,bus_stops,Kakunoor,16.91466734,78.33643063,outside city bounding box
+hyderabad,bus_stops,Jugu Tanda,16.79361968,78.76993089,outside city bounding box
+hyderabad,bus_stops,Palle Thanda-Madgul,16.79478368,78.78225624,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.79624475,78.79172981,outside city bounding box
+hyderabad,bus_stops,Asireddypally-Madgul,16.80602513,78.78843337,outside city bounding box
+hyderabad,bus_stops,Sundarapuram X Road,16.92906291,78.33768022,outside city bounding box
+hyderabad,bus_stops,Guttalagadda Twd Kondareddypally,16.99349379,78.27260976,outside city bounding box
+hyderabad,bus_stops,Seriguda Madhurapur,16.98839946,78.27595702,outside city bounding box
+hyderabad,bus_stops,Ippalapalle-Keshampeta,16.98188379,78.2839474,outside city bounding box
+hyderabad,bus_stops,Ragya Thanda,16.96197764,78.28180965,outside city bounding box
+hyderabad,bus_stops,Pomalpalle,16.95197438,78.28636147,outside city bounding box
+hyderabad,bus_stops,Seriguda Madhurapur,16.98833791,78.27573175,outside city bounding box
+hyderabad,bus_stops,Guttalagadda Twd Afzalgunj,16.99341388,78.2723952,outside city bounding box
+hyderabad,bus_stops,Kadthal-Rr,16.98568933,78.50169718,outside city bounding box
+hyderabad,bus_stops,Rajkhanguda-Amangal,16.96667636,78.47601768,outside city bounding box
+hyderabad,bus_stops,Takrajguda,16.96558877,78.47376461,outside city bounding box
+hyderabad,bus_stops,Madharam,16.9583615,78.44868602,outside city bounding box
+hyderabad,bus_stops,Madharam,16.9680104,78.44978571,outside city bounding box
+hyderabad,bus_stops,Natkhanpalli,16.978,78.439,outside city bounding box
+hyderabad,bus_stops,Ravichedu,16.982,78.424,outside city bounding box
+hyderabad,bus_stops,Santhapur,16.989,78.381,outside city bounding box
+hyderabad,bus_stops,Takrajguda,16.96566812,78.4736681,outside city bounding box
+hyderabad,bus_stops,Cherikonda Patti Padkal,16.94920736,78.64140012,outside city bounding box
+hyderabad,bus_stops,Cherikonda Palakurthy,16.91917852,78.64237368,outside city bounding box
+hyderabad,bus_stops,Mudwin-Amangal,16.90426363,78.6031276,outside city bounding box
+hyderabad,bus_stops,T Gowraram Village,16.89126744,78.60894799,outside city bounding box
+hyderabad,bus_stops,Akuthotapalle,16.87096585,78.60108375,outside city bounding box
+hyderabad,bus_stops,T Gowraram Village,16.89103142,78.60910184,outside city bounding box
+hyderabad,bus_stops,Mudwin-Amangal,16.90767808,78.60488177,outside city bounding box
+hyderabad,bus_stops,Pallecheluku Thanda,16.97617335,78.64227705,outside city bounding box
+hyderabad,bus_stops,Pallecheluku Thanda,16.97609394,78.64238713,outside city bounding box
+hyderabad,bus_stops,Akuthotapalle,16.87089796,78.60122322,outside city bounding box
+hyderabad,bus_stops,Saree Thanda,16.95592162,78.67795585,outside city bounding box
+hyderabad,bus_stops,Korram Thanda,16.92337859,78.67816399,outside city bounding box
+hyderabad,bus_stops,Katramtanda,16.91800832,78.67614541,outside city bounding box
+hyderabad,bus_stops,Nagilla-Madgul,16.898,78.659,outside city bounding box
+hyderabad,bus_stops,Appareddypally-Madgul,16.88231779,78.67579668,outside city bounding box
+hyderabad,bus_stops,Dodlapahad,16.87336779,78.63471864,outside city bounding box
+hyderabad,bus_stops,Avuru Pally X Road,16.8723926,78.62753207,outside city bounding box
+hyderabad,bus_stops,Shetti Pally-Amangal,16.88797513,78.61958697,outside city bounding box
+hyderabad,bus_stops,Murthuja Palli,16.85644199,78.56973422,outside city bounding box
+hyderabad,bus_stops,Jangareddy Pally-Amangal,16.84891803,78.55699092,outside city bounding box
+hyderabad,bus_stops,Jangareddy Pally-Amangal,16.84896637,78.55690202,outside city bounding box
+hyderabad,bus_stops,Murthuja Palli,16.85650363,78.56913336,outside city bounding box
+hyderabad,bus_stops,Avuru Pally X Road,16.87247968,78.62751424,outside city bounding box
+hyderabad,bus_stops,Dodlapahad,16.8736142,78.63415003,outside city bounding box
+hyderabad,bus_stops,Appareddypally-Madgul,16.88226389,78.67589591,outside city bounding box
+hyderabad,bus_stops,Nagilla-Madgul,16.89807358,78.65905702,outside city bounding box
+hyderabad,bus_stops,Katramtanda,16.91800576,78.67611587,outside city bounding box
+hyderabad,bus_stops,Korra Thanda,16.92334066,78.67824018,outside city bounding box
+hyderabad,bus_stops,Kurmed Gate,16.89065397,78.75353248,outside city bounding box
+hyderabad,bus_stops,Kurmapalli-Chinthapally,16.88197643,78.76021921,outside city bounding box
+hyderabad,bus_stops,Saireddy Gudem,16.88644757,78.78474534,outside city bounding box
+hyderabad,bus_stops,Kurmapalli-Chinthapally,16.884,78.793,outside city bounding box
+hyderabad,bus_stops,Saireddy Gudem,16.898,78.79,outside city bounding box
+hyderabad,bus_stops,Pk Mallepally-Chinthapally,16.90335175,78.81582857,outside city bounding box
+hyderabad,bus_stops,Kistarampally-Marriguda,16.89726752,78.82620697,outside city bounding box
+hyderabad,bus_stops,Narasimhapuram-Marriguda,16.88918336,78.83910298,outside city bounding box
+hyderabad,bus_stops,Chintapalle-Chennur,16.87992247,78.84710837,outside city bounding box
+hyderabad,bus_stops,Hydelapur,16.87751559,78.85511577,outside city bounding box
+hyderabad,bus_stops,Thunga Pahad-Miryalaguda,16.87028301,78.87017073,outside city bounding box
+hyderabad,bus_stops,Tungapathi Gouraram (Tp Gouraram),16.87913259,78.88736129,outside city bounding box
+hyderabad,bus_stops,Mallapurajupally-Nampally,16.87014908,78.90897989,outside city bounding box
+hyderabad,bus_stops,Hydelapur,16.87746426,78.85512113,outside city bounding box
+hyderabad,bus_stops,Chintapalle-Chennur,16.87968699,78.84681703,outside city bounding box
+hyderabad,bus_stops,Pk Mallepally-Chinthapally,16.9030472,78.81610036,outside city bounding box
+hyderabad,bus_stops,Saireddy Gudem,16.89941658,78.79029916,outside city bounding box
+hyderabad,bus_stops,Arkapally X Road,16.83828,78.789462,outside city bounding box
+hyderabad,bus_stops,Vinjamooru Bs,16.83085786,78.80180151,outside city bounding box
+hyderabad,bus_stops,Chinthapally X Road,16.81793357,78.82844924,outside city bounding box
+hyderabad,bus_stops,Chinthapalli-Devarakonda,16.80283608,78.82064939,outside city bounding box
+hyderabad,bus_stops,Humanthula Palli,16.7790989,78.80598306,outside city bounding box
+hyderabad,bus_stops,Humanthula Palli,16.77899105,78.80589724,outside city bounding box
+hyderabad,bus_stops,Mallareddi Palli-Chinthapally,16.77161043,78.83074236,outside city bounding box
+hyderabad,bus_stops,Korrabhagya Tanda,16.74758163,78.84809376,outside city bounding box
+hyderabad,bus_stops,Mudigonda-Devarakonda,16.73969122,78.8614136,outside city bounding box
+hyderabad,bus_stops,Kamalpur-Devarakonda,16.72943731,78.85964871,outside city bounding box
+hyderabad,bus_stops,Gottimukkala-Devarakonda,16.734,78.831,outside city bounding box
+hyderabad,bus_stops,Iddam Palli,16.732,78.781,outside city bounding box
+hyderabad,bus_stops,Jillepaly-Devarakonda,16.71333023,78.80621448,outside city bounding box
+hyderabad,bus_stops,Jillepaly-Devarakonda,16.71342047,78.80619373,outside city bounding box
+hyderabad,bus_stops,Iddam Palli,16.73200084,78.78109758,outside city bounding box
+hyderabad,bus_stops,Gottimukkala-Devarakonda,16.73421506,78.83025154,outside city bounding box
+hyderabad,bus_stops,Kamalpur-Devarakonda,16.72940163,78.85955756,outside city bounding box
+hyderabad,bus_stops,Mudigonda-Devarakonda,16.73992239,78.86142969,outside city bounding box
+hyderabad,bus_stops,Korrabhagya Tanda,16.74742238,78.84822785,outside city bounding box
+hyderabad,bus_stops,Mallareddi Palli-Chinthapally,16.77149229,78.83075576,outside city bounding box
+hyderabad,bus_stops,Humanthula Palli,16.761,78.802,outside city bounding box
+hyderabad,bus_stops,Chinthapalli-Devarakonda,16.802908,78.82055283,outside city bounding box
+hyderabad,bus_stops,Chinthapally X Road,16.817874,78.828705,outside city bounding box
+hyderabad,bus_stops,Vinjamooru Bs,16.830782,78.801827,outside city bounding box
+hyderabad,bus_stops,Arkapally X Road,16.838101,78.789544,outside city bounding box
+hyderabad,bus_stops,Tirugundla Pally-Marriguda,16.96486,78.77364367,outside city bounding box
+hyderabad,bus_stops,Tammad Palle-Marriguda,16.97186494,78.77501294,outside city bounding box
+hyderabad,bus_stops,Ragaipally,16.81223087,78.5331166,outside city bounding box
+hyderabad,bus_stops,Peddapur-Veldanda,16.78197506,78.53734913,outside city bounding box
+hyderabad,bus_stops,Veldanda,16.745,78.536,outside city bounding box
+hyderabad,bus_stops,Bollampally-Veldanda,16.758,78.593,outside city bounding box
+hyderabad,bus_stops,Challapally,16.75389593,78.59747656,outside city bounding box
+hyderabad,bus_stops,Chedurvalli,16.74450475,78.62398735,outside city bounding box
+hyderabad,bus_stops,Bhairpur,16.76,78.657,outside city bounding box
+hyderabad,bus_stops,Appareddypally Thanda,16.75525606,78.67087745,outside city bounding box
+hyderabad,bus_stops,Appareddypally Thanda,16.755179,78.67087475,outside city bounding box
+hyderabad,bus_stops,Bhairpur,16.76006385,78.65697295,outside city bounding box
+hyderabad,bus_stops,Chedurvalli,16.74439932,78.62392965,outside city bounding box
+hyderabad,bus_stops,Challapally,16.75376355,78.59735335,outside city bounding box
+hyderabad,bus_stops,Bollampally-Veldanda,16.75799919,78.59260799,outside city bounding box
+hyderabad,bus_stops,Veldanda,16.74450333,78.53578104,outside city bounding box
+hyderabad,bus_stops,Peddapur,16.78213688,78.53724992,outside city bounding box
+hyderabad,bus_stops,Ragaipally,16.81220034,78.53307368,outside city bounding box
+hyderabad,bus_stops,Bairapur-Birkoor,18.49348809,77.81974553,outside city bounding box
+hyderabad,bus_stops,Appreddypally,16.57517,78.07616,outside city bounding box
+hyderabad,bus_stops,Appreddypally,16.57517,78.07609,outside city bounding box
+hyderabad,bus_stops,Bollampally-Veldanda,16.75707299,78.59464997,outside city bounding box
+hyderabad,bus_stops,Peddapur,16.48724236,78.54283154,outside city bounding box
+hyderabad,bus_stops,Bhatlapalle,16.93512875,78.86244897,outside city bounding box
+hyderabad,bus_stops,Swamulavari Lingotam-Nampally,16.90554679,78.89833687,outside city bounding box
+hyderabad,bus_stops,Vaddepally,16.8967673,78.92010744,outside city bounding box
+hyderabad,bus_stops,Chittam Pahad,16.88993792,78.93753469,outside city bounding box
+hyderabad,bus_stops,Nampalli-Devarakonda,16.88490749,78.96298302,outside city bounding box
+hyderabad,bus_stops,Peddapur-Nampally,16.90013695,78.97195816,outside city bounding box
+hyderabad,bus_stops,Ramdas Thanda-Nampally,16.91822388,78.98374379,outside city bounding box
+hyderabad,bus_stops,Narasimhula Gudem-Tripuraram,16.93398949,78.9922893,outside city bounding box
+hyderabad,bus_stops,Papireddigudem-Chandur,16.97202271,79.01348948,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.97198167,79.01343584,outside city bounding box
+hyderabad,bus_stops,Thummalapalle-Chandur,16.9502618,79.00776565,outside city bounding box
+hyderabad,bus_stops,Neralla Palli-Nampally,16.94202576,78.99218201,outside city bounding box
+hyderabad,bus_stops,Peddapur-Nampally,16.90014722,78.97200644,outside city bounding box
+hyderabad,bus_stops,Nampalli-Devarakonda,16.88515901,78.96073586,outside city bounding box
+hyderabad,bus_stops,Chittam Pahad,16.88978029,78.93747126,outside city bounding box
+hyderabad,bus_stops,Swamulavari Lingotam-Nampally,16.90563427,78.89806508,outside city bounding box
+hyderabad,bus_stops,Bhatlapalle,16.93499509,78.86280299,outside city bounding box
+hyderabad,bus_stops,Marriguda-Mall,16.941,78.858,outside city bounding box
+hyderabad,bus_stops,Yergandla Palle-Marriguda,16.95875147,78.82022291,outside city bounding box
+hyderabad,bus_stops,Santhapur,16.98826864,78.38009655,outside city bounding box
+hyderabad,bus_stops,Patigadda,16.97486259,78.34749155,outside city bounding box
+hyderabad,bus_stops,Santhapur,16.98812239,78.37998927,outside city bounding box
+hyderabad,bus_stops,Anneboina Pally-Madgul,16.86503725,78.77175805,outside city bounding box
+hyderabad,bus_stops,Suddapalle,16.81890923,78.79494313,outside city bounding box
+hyderabad,bus_stops,Andugula X Road,16.78630974,78.79252915,outside city bounding box
+hyderabad,bus_stops,Yella Reddy Bawi,16.689204,78.785698,outside city bounding box
+hyderabad,bus_stops,Padamati Palli-Devarakonda,16.69008487,78.80245462,outside city bounding box
+hyderabad,bus_stops,Kandukur-Gundla Palle,16.65533677,78.78112436,outside city bounding box
+hyderabad,bus_stops,Rahamanthapur-Gundlapally-Dindi,16.64612186,78.74864817,outside city bounding box
+hyderabad,bus_stops,Padamati Palli-D,16.6906411,78.80244792,outside city bounding box
+hyderabad,bus_stops,Andugula X Road,16.78627891,78.79231454,outside city bounding box
+hyderabad,bus_stops,Sudanpalle,16.81892461,78.79480896,outside city bounding box
+hyderabad,bus_stops,Anneboina Pally-Madgul,16.86496411,78.77190828,outside city bounding box
+hyderabad,bus_stops,Humanthula Palli,16.7619524,78.80221678,outside city bounding box
+hyderabad,bus_stops,Anajpur-Chinthapally,16.75290336,78.79442275,outside city bounding box
+hyderabad,bus_stops,Nandi Gadda,16.75229465,78.79401237,outside city bounding box
+hyderabad,bus_stops,Kurmed Gate,16.89085159,78.75385702,outside city bounding box
+hyderabad,bus_stops,Madgul,16.85076376,78.68879468,outside city bounding box
+hyderabad,bus_stops,Jayaram Thanda,16.8615861,78.67188871,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.86466379,78.66765348,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.86469716,78.6676079,outside city bounding box
+hyderabad,bus_stops,Jayaram Thanda,16.86160279,78.67191687,outside city bounding box
+hyderabad,bus_stops,Vemula,16.78412701,78.33944499,outside city bounding box
+hyderabad,bus_stops,Veljala,16.82003409,78.36288755,outside city bounding box
+hyderabad,bus_stops,Chandradana,16.85415221,78.388284,outside city bounding box
+hyderabad,bus_stops,Talakondapalle,16.88701208,78.41799615,outside city bounding box
+hyderabad,bus_stops,Ravichedu,16.98316666,78.41646194,outside city bounding box
+hyderabad,bus_stops,Padkal,16.93631626,78.4008281,outside city bounding box
+hyderabad,bus_stops,Lingaraopally,16.92407199,78.38111847,outside city bounding box
+hyderabad,bus_stops,Turkapally X Road,16.91022766,78.37065518,outside city bounding box
+hyderabad,bus_stops,Padkal,16.93648071,78.40073213,outside city bounding box
+hyderabad,bus_stops,Vinjamooru Bs,16.85427673,78.81257996,outside city bounding box
+hyderabad,bus_stops,Yella Reddy Bawi,16.689034,78.785653,outside city bounding box
+hyderabad,bus_stops,Yeraguntapaly,16.695039,78.757782,outside city bounding box
+hyderabad,bus_stops,Vavilkol,16.66936918,78.75185071,outside city bounding box
+hyderabad,bus_stops,Rudraiguda,16.66155718,78.74947662,outside city bounding box
+hyderabad,bus_stops,Yeraguntapaly,16.695204,78.757739,outside city bounding box
+hyderabad,bus_stops,Lankalapalle Bs,16.98768121,78.94818306,outside city bounding box
+hyderabad,bus_stops,Donipamula,16.98146055,78.98094622,outside city bounding box
+hyderabad,bus_stops,Angadipet,16.98364871,79.03519392,outside city bounding box
+hyderabad,bus_stops,Kasthala,16.9511136,79.0756309,outside city bounding box
+hyderabad,bus_stops,Donipamula,16.98140925,78.98085773,outside city bounding box
+hyderabad,bus_stops,Lankalapalle Bs,16.98725583,78.94817972,outside city bounding box
+hyderabad,bus_stops,Ekwaipally,16.927,78.565,outside city bounding box
+hyderabad,bus_stops,Mudwin-Amangal,16.90767552,78.60484421,outside city bounding box
+hyderabad,bus_stops,Aurpally,16.86448655,78.61642063,outside city bounding box
+hyderabad,bus_stops,Bangarugadda-Amangal,16.856,78.647,outside city bounding box
+hyderabad,bus_stops,Appareddypally-Madgul,16.848,78.663,outside city bounding box
+hyderabad,bus_stops,Madnapur,16.92638011,78.73161882,outside city bounding box
+hyderabad,bus_stops,Appareddypally-Madgul,16.848,78.663,outside city bounding box
+hyderabad,bus_stops,Bangarugadda-Amangal,16.856,78.646,outside city bounding box
+hyderabad,bus_stops,Aurpally,16.86494333,78.6162007,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.85318704,78.42993737,outside city bounding box
+hyderabad,bus_stops,Talakondapalle,16.88795142,78.41372744,outside city bounding box
+hyderabad,bus_stops,Cheepunuthala,16.90203864,78.44383389,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.93953178,78.43289852,outside city bounding box
+hyderabad,bus_stops,Chukkapur,16.88058035,78.46417848,outside city bounding box
+hyderabad,bus_stops,Cheepunuthala,16.9020335,78.44396263,outside city bounding box
+hyderabad,bus_stops,Keshampet,16.95320075,78.34674664,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.93291951,78.34959179,outside city bounding box
+hyderabad,bus_stops,Lemamidi,16.91517263,78.35791735,outside city bounding box
+hyderabad,bus_stops,Nirdavally,16.90036402,78.34913851,outside city bounding box
+hyderabad,bus_stops,Lemamidi,16.91506367,78.35805684,outside city bounding box
+hyderabad,bus_stops,Bodunampally X Road Twd Keshampet,16.93288615,78.3494979,outside city bounding box
+hyderabad,bus_stops,Julapalle,16.85895757,78.35846774,outside city bounding box
+hyderabad,bus_stops,Venkatapuram-Thalakondapally,16.79694961,78.35546851,outside city bounding box
+hyderabad,bus_stops,Venkatapuram-Thalakondapally,16.79695603,78.3554256,outside city bounding box
+hyderabad,bus_stops,Julapalle,16.85690019,78.36401269,outside city bounding box
+hyderabad,bus_stops,Sankatonipally,16.8239079,78.51116005,outside city bounding box
+hyderabad,bus_stops,Sankatonipally,16.82356153,78.5103929,outside city bounding box
+hyderabad,bus_stops,Gattu Ippalapalle,16.7988356,78.44142796,outside city bounding box
+hyderabad,bus_stops,Veernapally-Veernapalli,16.78397034,78.46692233,outside city bounding box
+hyderabad,bus_stops,Gattu Ippalapalle,16.79763392,78.44515085,outside city bounding box
+hyderabad,bus_stops,Chowdarpally-Amangal,16.81507082,78.51592897,outside city bounding box
+hyderabad,bus_stops,Gollonipally,16.80155216,78.50098371,outside city bounding box
+hyderabad,bus_stops,Kuppagandla,16.77399041,78.49800579,outside city bounding box
+hyderabad,bus_stops,Ippapahad,16.75992707,78.47138486,outside city bounding box
+hyderabad,bus_stops,Jakanalapalle,16.75549996,78.45576703,outside city bounding box
+hyderabad,bus_stops,Urkondapeta,16.74300205,78.43329547,outside city bounding box
+hyderabad,bus_stops,Urukonda Temple,16.739,78.424,outside city bounding box
+hyderabad,bus_stops,Urkonda Gate,16.72712572,78.40644087,outside city bounding box
+hyderabad,bus_stops,Urkonda Gate,16.72385291,78.41105459,outside city bounding box
+hyderabad,bus_stops,Urukonda Temple,16.73881277,78.42404723,outside city bounding box
+hyderabad,bus_stops,Urkondapeta,16.74306628,78.43334921,outside city bounding box
+hyderabad,bus_stops,Jakanalapalle,16.7555538,78.45568655,outside city bounding box
+hyderabad,bus_stops,Ippapahad,16.75997137,78.47152265,outside city bounding box
+hyderabad,bus_stops,Kuppagandla,16.774045,78.49798634,outside city bounding box
+hyderabad,bus_stops,Gollonipally,16.80151648,78.50087908,outside city bounding box
+hyderabad,bus_stops,Chowdarpally-Amangal,16.8150965,78.51590549,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.99088925,78.45524189,outside city bounding box
+hyderabad,bus_stops,Madharam,16.97094552,78.44904005,outside city bounding box
+hyderabad,bus_stops,Nalluripally,16.85039391,78.62463355,outside city bounding box
+hyderabad,bus_stops,Nalluripally,16.847,78.626,outside city bounding box
+hyderabad,bus_stops,Chennampalle-Amangal,16.83472171,78.58242096,outside city bounding box
+hyderabad,bus_stops,Polepally-Amangal,16.82455917,78.60772055,outside city bounding box
+hyderabad,bus_stops,Kalakonda,16.80391464,78.65701318,outside city bounding box
+hyderabad,bus_stops,Ajilapur,16.79618611,78.68391333,outside city bounding box
+hyderabad,bus_stops,Ajilapur,16.79614203,78.68389964,outside city bounding box
+hyderabad,bus_stops,Kalakonda,16.80385295,78.65697295,outside city bounding box
+hyderabad,bus_stops,Polepally-Amangal,16.82455565,78.6076907,outside city bounding box
+hyderabad,bus_stops,Chennampalle-Amangal,16.83469092,78.58234047,outside city bounding box
+hyderabad,bus_stops,Jangareddy Pally-Amangal,16.84698239,78.55694582,outside city bounding box
+hyderabad,bus_stops,Antharam-Thalakondapally,16.83572478,78.34886222,outside city bounding box
+hyderabad,bus_stops,Masigundlapally,16.80867428,78.32473998,outside city bounding box
+hyderabad,bus_stops,Wadiyal,16.74692456,78.31501819,outside city bounding box
+hyderabad,bus_stops,Vemula-Midjil,16.78409105,78.3175394,outside city bounding box
+hyderabad,bus_stops,Masigundlapally,16.80847565,78.32580271,outside city bounding box
+hyderabad,bus_stops,Venkatapuram Patti-Thalakondapally,16.81366637,78.33814412,outside city bounding box
+hyderabad,bus_stops,Chetla Tanda,16.79025829,78.75059465,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.78378262,78.75077086,outside city bounding box
+hyderabad,bus_stops,Damera Bhemanapally-Marriguda,16.952,78.93,outside city bounding box
+hyderabad,bus_stops,Vattipalle,16.94271339,78.87436867,outside city bounding box
+hyderabad,bus_stops,Kondur-Marriguda,16.93542127,78.83531569,outside city bounding box
+hyderabad,bus_stops,Goleti X Road,16.90173579,78.67193431,outside city bounding box
+hyderabad,bus_stops,Rachalapalle,16.69477748,78.39831948,outside city bounding box
+hyderabad,bus_stops,Madharam-Midjil,16.67432595,78.36628318,outside city bounding box
+hyderabad,bus_stops,Gudiganpalle,16.67197235,78.33579177,outside city bounding box
+hyderabad,bus_stops,Madharam-Midjil,16.67435164,78.36639583,outside city bounding box
+hyderabad,bus_stops,Rachalapalle,16.695,78.399,outside city bounding box
+hyderabad,bus_stops,Pedda Adiryal,16.85193943,78.29847687,outside city bounding box
+hyderabad,bus_stops,Chinna Adiryal,16.838,78.301,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.853,78.43,outside city bounding box
+hyderabad,bus_stops,Chowdarpally-Thalakondapally,16.81773829,78.38420304,outside city bounding box
+hyderabad,bus_stops,Cherkur,16.776839,78.544234,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.77301775,78.56429458,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.78264,78.587544,outside city bounding box
+hyderabad,bus_stops,Cherkur,16.77689558,78.54410827,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.773134,78.564355,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.99084148,78.45581528,outside city bounding box
+hyderabad,bus_stops,Madharam,16.969,78.45,outside city bounding box
+hyderabad,bus_stops,Konapur-Vangoor,16.54458502,78.54708091,outside city bounding box
+hyderabad,bus_stops,Jangareddy Pally-Amangal,16.84701556,78.5571492,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.83857505,78.57226608,outside city bounding box
+hyderabad,bus_stops,Chandryanplly,16.81920702,78.63278742,outside city bounding box
+hyderabad,bus_stops,Irvin,16.79072013,78.70558262,outside city bounding box
+hyderabad,bus_stops,Nyamathapur,16.97873629,78.43795985,outside city bounding box
+hyderabad,bus_stops,Makthamadharam,16.97095551,78.44956578,outside city bounding box
+hyderabad,bus_stops,Thommidi Rekula ( 9 Rekula ),16.87713121,78.32483777,outside city bounding box
+hyderabad,bus_stops,Rampur,16.84760124,78.40525025,outside city bounding box
+hyderabad,bus_stops,Medakpally,16.83777387,78.41854329,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.82334576,78.42608571,outside city bounding box
+hyderabad,bus_stops,Urkonda,16.73173864,78.41177881,outside city bounding box
+hyderabad,bus_stops,Medakpally Mielstone Twd Afjalgunj,16.82329441,78.42599988,outside city bounding box
+hyderabad,bus_stops,Medakpally-Talakondapalle,16.83434389,78.41903689,outside city bounding box
+hyderabad,bus_stops,Rampur-Thalakondapally,16.84767204,78.40571168,outside city bounding box
+hyderabad,bus_stops,Lingamdana,16.8696794,78.32749845,outside city bounding box
+hyderabad,bus_stops,Kondareddipally-Keshampeta,16.93117723,78.29006553,outside city bounding box
+hyderabad,bus_stops,Gandhi Shankarpally,16.901613,78.3876591,outside city bounding box
+hyderabad,bus_stops,Gandhi Shankarpally,16.90167164,78.38771939,outside city bounding box
+hyderabad,bus_stops,Turkalapally-Keshampeta,16.91047372,78.37009151,outside city bounding box
+hyderabad,bus_stops,Ramakrishnapuram,16.91774144,78.35244298,outside city bounding box
+hyderabad,bus_stops,Lingaraopally,16.91384602,78.36091353,outside city bounding box
+hyderabad,bus_stops,Lingaraopally,16.91396406,78.3609724,outside city bounding box
+hyderabad,bus_stops,Ramakrishnapuram,16.91778763,78.35251271,outside city bounding box
+hyderabad,bus_stops,Thommidi Rekula ( 9 Rekula ),16.87982048,78.32098603,outside city bounding box
+hyderabad,bus_stops,Ekwaipally,16.86488711,78.31200063,outside city bounding box
+hyderabad,bus_stops,Pedda Adiryal,16.85196511,78.29838567,outside city bounding box
+hyderabad,bus_stops,Ekwaipally,16.86464582,78.31201136,outside city bounding box
+hyderabad,bus_stops,Chinna Adiryal,16.83821564,78.29924808,outside city bounding box
+hyderabad,bus_stops,Konded,16.8321774,78.2848084,outside city bounding box
+hyderabad,bus_stops,Singamdoddi,16.81523769,78.26743302,outside city bounding box
+hyderabad,bus_stops,Donur,16.7904595,78.26484204,outside city bounding box
+hyderabad,bus_stops,Pedda Adiryal,16.85252423,78.28669783,outside city bounding box
+hyderabad,bus_stops,Chinna Adiryal,16.838216,78.299207,outside city bounding box
+hyderabad,bus_stops,Konded,16.831947,78.284805,outside city bounding box
+hyderabad,bus_stops,Singamdoddi,16.815262,78.267558,outside city bounding box
+hyderabad,bus_stops,Donur,16.79042225,78.26501235,outside city bounding box
+hyderabad,bus_stops,Vaspula,16.77807169,78.26645138,outside city bounding box
+hyderabad,bus_stops,Ranipet,16.74846205,78.26872542,outside city bounding box
+hyderabad,bus_stops,Vaspula,16.77805757,78.26651976,outside city bounding box
+hyderabad,bus_stops,Thummalaguda,17.332,79.053,outside city bounding box
+hyderabad,bus_stops,Nemili Kalawa Valigonda,17.343,79.01,outside city bounding box
+hyderabad,bus_stops,Nagaram -Valigonda,17.35668034,79.02914017,outside city bounding box
+hyderabad,bus_stops,Valigonda,17.37892086,79.01767904,outside city bounding box
+hyderabad,bus_stops,Golle Palle,17.34244823,79.00962979,outside city bounding box
+hyderabad,bus_stops,Nagaram -Valigonda,17.357,79.029,outside city bounding box
+hyderabad,bus_stops,Nagaram -Valigonda,17.35661274,79.02925886,outside city bounding box
+hyderabad,bus_stops,Thummalaguda,17.332,79.053,outside city bounding box
+hyderabad,bus_stops,Bogaram,17.3052859,79.0729041,outside city bounding box
+hyderabad,bus_stops,Ramannapet,17.2858394,79.09431517,outside city bounding box
+hyderabad,bus_stops,Neernemula,17.317,79.094,outside city bounding box
+hyderabad,bus_stops,Shobhanadripuram,17.35,79.095,outside city bounding box
+hyderabad,bus_stops,Laxmapur,17.349,79.116,outside city bounding box
+hyderabad,bus_stops,Shobhanadripuram,17.351,79.096,outside city bounding box
+hyderabad,bus_stops,Neernemula,17.317,79.094,outside city bounding box
+hyderabad,bus_stops,Valigonda,17.37832197,79.01797145,outside city bounding box
+hyderabad,bus_stops,Nagaram -Valigonda,17.35638807,79.02891756,outside city bounding box
+hyderabad,bus_stops,Golle Palle,17.342457,79.009793,outside city bounding box
+hyderabad,bus_stops,Veliminedu-Chityala-Nlg,17.23402228,79.02178615,outside city bounding box
+hyderabad,bus_stops,Pedakaparthy,17.22991783,79.07379426,outside city bounding box
+hyderabad,bus_stops,Chityala Bs,17.23266915,79.12402868,outside city bounding box
+hyderabad,bus_stops,Nallacheruvu,16.83218768,78.7000681,outside city bounding box
+hyderabad,bus_stops,Mile Stone,17.24001443,79.02346604,outside city bounding box
+hyderabad,bus_stops,Rajkhanguda-Amangal,16.96650191,78.47603914,outside city bounding box
+hyderabad,bus_stops,Padkal,16.9365993,78.4026985,outside city bounding box
+hyderabad,bus_stops,Mile Stone,16.53656912,78.20541602,outside city bounding box
+hyderabad,bus_stops,Ashoknagar,17.95224212,79.95350286,outside city bounding box
+hyderabad,bus_stops,Lingam Palle-Nuthankal,17.31203726,79.7555387,outside city bounding box
+hyderabad,bus_stops,Veeravally,17.48619991,79.00838256,outside city bounding box
+hyderabad,bus_stops,Puligilla,17.46071087,79.02981068,outside city bounding box
+hyderabad,bus_stops,Goligudem,17.4466689,79.02881604,outside city bounding box
+hyderabad,bus_stops,Ramanthapur-Chegunta,17.93163591,78.45820655,outside city bounding box
+hyderabad,bus_stops,Chegunta-Mdk,17.96564985,78.46315719,outside city bounding box
+hyderabad,bus_stops,Valloor-Chegunta,18.00072307,78.45244646,outside city bounding box
+hyderabad,bus_stops,Narsingi-Medak,18.044735,78.429463,outside city bounding box
+hyderabad,bus_stops,Zapthi Shivnoor,18.07319699,78.42996417,outside city bounding box
+hyderabad,bus_stops,Ramayampet,18.1163082,78.42939522,outside city bounding box
+hyderabad,bus_stops,Zapthi Shivnoor,18.07319512,78.43010366,outside city bounding box
+hyderabad,bus_stops,Narsingi-Medak,18.04452253,78.42993738,outside city bounding box
+hyderabad,bus_stops,Valloor-Chegunta,18.00065742,78.45255781,outside city bounding box
+hyderabad,bus_stops,Ramanthapur-Chegunta,17.93165367,78.45834464,outside city bounding box
+hyderabad,bus_stops,Aler Bs,17.646111,79.052335,outside city bounding box
+hyderabad,bus_stops,Kolanpaka Bus Stop,17.69484667,79.0371241,outside city bounding box
+hyderabad,bus_stops,Pochannapet,17.7504001,79.03785132,outside city bounding box
+hyderabad,bus_stops,Bachannapet,17.79041789,79.0349257,outside city bounding box
+hyderabad,bus_stops,Old Aler,17.64274081,79.04240504,outside city bounding box
+hyderabad,bus_stops,Mile Stone,17.64918706,79.04825997,outside city bounding box
+hyderabad,bus_stops,Narayanapur,17.74685667,79.00537846,outside city bounding box
+hyderabad,bus_stops,Reddy Gudem-Aleru,17.633412,79.02736,outside city bounding box
+hyderabad,bus_stops,Bahupeta,17.62366,79.016169,outside city bounding box
+hyderabad,bus_stops,Mallapur Dcpl,18.59179185,78.28905411,outside city bounding box
+hyderabad,bus_stops,Jangaon Bs,17.71992468,79.16312204,outside city bounding box
+hyderabad,bus_stops,Raghunathpalle,17.76044164,79.25688218,outside city bounding box
+hyderabad,bus_stops,Komalla Toll,17.77770391,79.28356648,outside city bounding box
+hyderabad,bus_stops,Station Ghanpur,17.85356106,79.36945148,outside city bounding box
+hyderabad,bus_stops,Hanumakonda Bs,18.00326893,79.56746837,outside city bounding box
+hyderabad,bus_stops,Station Ghanpur,17.85366796,79.36963756,outside city bounding box
+hyderabad,bus_stops,Komalla Toll,17.77741415,79.2837336,outside city bounding box
+hyderabad,bus_stops,Raghunathpalle,17.75995593,79.25709404,outside city bounding box
+hyderabad,bus_stops,Manthapurit,17.6178475,79.05000781,outside city bounding box
+hyderabad,bus_stops,Dilawarpur,17.59669703,79.0453005,outside city bounding box
+hyderabad,bus_stops,Ikkurthi,17.59990903,79.067878,outside city bounding box
+hyderabad,bus_stops,Matoor,17.57378775,79.10419106,outside city bounding box
+hyderabad,bus_stops,Amman Bole,17.57724627,79.12887889,outside city bounding box
+hyderabad,bus_stops,Golanakonda,17.59252729,79.13665317,outside city bounding box
+hyderabad,bus_stops,Jeedikal,17.6040687,79.16627989,outside city bounding box
+hyderabad,bus_stops,Pedda Thanda-Devaruppula,17.62986186,79.34806987,outside city bounding box
+hyderabad,bus_stops,Ramoji Tanda X Road,16.80889188,79.64076357,outside city bounding box
+hyderabad,bus_stops,Dharmaram-Mnty,18.59765257,79.68961402,outside city bounding box
+hyderabad,bus_stops,Cheekati Mamidi-Munugodu,17.09815132,79.02253255,outside city bounding box
+hyderabad,bus_stops,Kazipet Railway Station,17.97651357,79.51015957,outside city bounding box
+hyderabad,bus_stops,Rangapur-Pargi,17.20053117,77.9322052,outside city bounding box
+hyderabad,bus_stops,Nagaram Village,18.44754527,78.77004023,outside city bounding box
+hyderabad,health_other,"GAD, Burgula, Ranga Reddy Dist.",16.964887,78.207726,outside city bounding box
+hyderabad,health_other,"GAD, Mudwin, Ranga Reddy District",16.908331,78.604293,outside city bounding box
+hyderabad,health_other,"GHD, Amangal, Ranga Reddy District",16.8547770000001,78.5300470000001,outside city bounding box
+hyderabad,health_other,"GUD, Kothapet, Ranga Reddy District",16.9963220000001,78.3673590000001,outside city bounding box

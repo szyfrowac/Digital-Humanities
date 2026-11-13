@@ -1,0 +1,2153 @@
+{
+ "axe_version": "4.10.3",
+ "audit_date": "4 November 2026",
+ "counts": {
+  "audited": 40,
+  "failed": 1,
+  "bengaluru": 16,
+  "hyderabad": 23
+ },
+ "categories": [
+  {
+   "label": "Text contrast",
+   "wcag": "1.4.3",
+   "bengaluru": 81,
+   "hyderabad": 96
+  },
+  {
+   "label": "Unnamed links and buttons",
+   "wcag": "2.4.4, 4.1.2",
+   "bengaluru": 56,
+   "hyderabad": 65
+  },
+  {
+   "label": "Images without text alternatives",
+   "wcag": "1.1.1",
+   "bengaluru": 44,
+   "hyderabad": 65
+  },
+  {
+   "label": "Page language not declared",
+   "wcag": "3.1.1",
+   "bengaluru": 25,
+   "hyderabad": 74
+  },
+  {
+   "label": "Small tap targets",
+   "wcag": "2.5.8 (new in WCAG 2.2)",
+   "bengaluru": 62,
+   "hyderabad": 30
+  },
+  {
+   "label": "Structure and ARIA errors",
+   "wcag": "1.3.1, 4.1.2",
+   "bengaluru": 31,
+   "hyderabad": 57
+  },
+  {
+   "label": "Unlabelled form fields",
+   "wcag": "1.3.1, 3.3.2, 4.1.2",
+   "bengaluru": 25,
+   "hyderabad": 26
+  },
+  {
+   "label": "Moving or blinking text",
+   "wcag": "2.2.2",
+   "bengaluru": 6,
+   "hyderabad": 17
+  },
+  {
+   "label": "Zoom blocked",
+   "wcag": "1.4.4",
+   "bengaluru": 0,
+   "hyderabad": 9
+  }
+ ],
+ "pages": [
+  {
+   "id": "blr_gba",
+   "label": "Greater Bengaluru Authority home",
+   "city": "bengaluru",
+   "url": "https://gba.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 18,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English"
+   ],
+   "focusRing": 15,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 41,
+   "inputs": 0,
+   "words": 526,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 2992,
+    "kannada": 5,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "GBA - Greater Bengaluru Authority",
+   "retried": false
+  },
+  {
+   "id": "blr_gba_clinics",
+   "label": "GBA nearby clinic and polio booth finder",
+   "city": "bengaluru",
+   "url": "https://gba.karnataka.gov.in/polio/",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 11,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "select-name",
+    "target-size"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "select-name",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [],
+   "focusRing": 17,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 1,
+   "inputs": 9,
+   "words": 1430,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 5171,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "GBA - Pulse Polio Campaign",
+   "retried": false
+  },
+  {
+   "id": "blr_ptax",
+   "label": "Property tax portal",
+   "city": "bengaluru",
+   "url": "https://bbmptax.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 3,
+   "nodes": 5,
+   "severe": [
+    "color-contrast",
+    "list",
+    "target-size"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "list",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Kannada",
+    "Bhashini widget"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": true,
+   "zoomBlocked": false,
+   "links": 49,
+   "inputs": 4,
+   "words": 623,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 3194,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Property Tax System | Bengaluru City Corporations",
+   "retried": false
+  },
+  {
+   "id": "blr_ejanma",
+   "label": "e-Janma births and deaths",
+   "city": "bengaluru",
+   "url": "https://ejanma.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 1,
+   "nodes": 3,
+   "severe": [
+    "target-size"
+   ],
+   "all_rules": [
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Hindi",
+    "Bhashini widget"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 46,
+   "inputs": 2,
+   "words": 487,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 2556,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "BIRTHS AND DEATHS | OFFICE OF THE CHIEF REGISTRAR OF BIRTHS AND DEATHS",
+   "retried": false
+  },
+  {
+   "id": "blr_nadakacheri",
+   "label": "Nadakacheri AJSK certificates",
+   "city": "bengaluru",
+   "url": "https://nadakacheri.karnataka.gov.in/ajsk",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 33,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "marquee"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "marquee"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "Kannada"
+   ],
+   "focusRing": 18,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 26,
+   "inputs": 0,
+   "words": 341,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": true
+   },
+   "scripts": {
+    "latin": 1636,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "AJSK Home Page",
+   "retried": false
+  },
+  {
+   "id": "blr_bwssb",
+   "label": "BWSSB water board",
+   "city": "bengaluru",
+   "url": "https://bwssb.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 32,
+   "severe": [
+    "aria-required-children",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name",
+    "list",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-required-children",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name",
+    "list",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 111,
+   "inputs": 0,
+   "words": 870,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 644,
+    "kannada": 4655,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "ಬೆಂಗಳೂರು ನೀರು ಸರಬರಾಜು ಮತ್ತು ಒಳಚರಂಡಿ ಮಂಡಳಿ - Index",
+   "retried": false
+  },
+  {
+   "id": "blr_bmtc",
+   "label": "BMTC buses",
+   "city": "bengaluru",
+   "url": "https://mybmtc.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 1,
+   "nodes": 3,
+   "severe": [
+    "target-size"
+   ],
+   "all_rules": [
+    "target-size"
+   ],
+   "htmlLang": "kn",
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": true,
+   "zoomBlocked": false,
+   "links": 166,
+   "inputs": 1,
+   "words": 1490,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1236,
+    "kannada": 8018,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "ಮುಖಪುಟ | ಬೆಂಗಳೂರು ಮಹಾನಗರ ಸಾರಿಗೆ ಸಂಸ್ಥೆ | ಕರ್ನಾಟಕ ಸರ್ಕಾರ",
+   "retried": false
+  },
+  {
+   "id": "blr_bmrc",
+   "label": "Namma Metro (BMRCL)",
+   "city": "bengaluru",
+   "url": "https://english.bmrc.co.in/",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 52,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "select-name"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "select-name"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 0,
+   "overflow": true,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 111,
+   "inputs": 2,
+   "words": 1460,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 607,
+    "kannada": 9281,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Namma Metro",
+   "retried": false
+  },
+  {
+   "id": "blr_hfw",
+   "label": "Karnataka Health and Family Welfare",
+   "city": "bengaluru",
+   "url": "https://hfwcom.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 31,
+   "severe": [
+    "aria-required-children",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name",
+    "list",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-required-children",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name",
+    "list",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 19,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 391,
+   "inputs": 0,
+   "words": 5577,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 4218,
+    "kannada": 27727,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "ಆರೋಗ್ಯ ಮತ್ತು ಕುಟುಂಬ ಕಲ್ಯಾಣ ಸೇವೆಗಳ ಆಯುಕ್ತಾಲಯ - Index",
+   "retried": false
+  },
+  {
+   "id": "blr_bswml",
+   "label": "Bengaluru Solid Waste Management Ltd",
+   "city": "bengaluru",
+   "url": "https://bswml.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 199,
+   "severe": [
+    "aria-required-children",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name",
+    "list",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-required-children",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "link-name",
+    "list",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 109,
+   "inputs": 0,
+   "words": 1124,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 2499,
+    "kannada": 4534,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "ಬೆಂಗಳೂರು ಘನತ್ಯಾಜ್ಯ ನಿರ್ವಹಣಾ ನಿಯಮಿತ - Index",
+   "retried": false
+  },
+  {
+   "id": "blr_ahara",
+   "label": "Ahara food and civil supplies",
+   "city": "bengaluru",
+   "url": "https://ahara.karnataka.gov.in/",
+   "status": "audited",
+   "rules": 1,
+   "nodes": 6,
+   "severe": [
+    "color-contrast"
+   ],
+   "all_rules": [
+    "color-contrast"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": true,
+   "zoomBlocked": false,
+   "links": 68,
+   "inputs": 1,
+   "words": 574,
+   "auth": {
+    "passwordField": false,
+    "otpMention": true,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": true
+   },
+   "scripts": {
+    "latin": 3320,
+    "kannada": 5,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Home | Department of Food, Civil Supplies and Consumer Affairs | Government of Karnataka",
+   "retried": false
+  },
+  {
+   "id": "blr_sevasindhu",
+   "label": "Seva Sindhu",
+   "city": "bengaluru",
+   "url": "https://sevasindhu.karnataka.gov.in/Sevasindhu/Kannada?ReturnUrl=%2F",
+   "status": "audited",
+   "rules": 2,
+   "nodes": 19,
+   "severe": [
+    "color-contrast",
+    "target-size"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "target-size"
+   ],
+   "htmlLang": "kn",
+   "languages": [
+    "English",
+    "Kannada"
+   ],
+   "focusRing": 0,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 63,
+   "inputs": 0,
+   "words": 308,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 168,
+    "kannada": 1681,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Seva Sindhu Home Page",
+   "retried": false
+  },
+  {
+   "id": "blr_sakala",
+   "label": "Sakala service tracking",
+   "city": "bengaluru",
+   "url": "https://sakala.kar.nic.in/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 66,
+   "severe": [
+    "aria-input-field-name",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "label",
+    "link-name",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-input-field-name",
+    "button-name",
+    "color-contrast",
+    "image-alt",
+    "label",
+    "link-name",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 95,
+   "inputs": 8,
+   "words": 313,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 463,
+    "kannada": 1196,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "SAKALA",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc",
+   "label": "GHMC home",
+   "city": "hyderabad",
+   "url": "https://www.ghmc.gov.in/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 49,
+   "severe": [
+    "aria-allowed-attr",
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-allowed-attr",
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "target-size"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 17,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 67,
+   "inputs": 1,
+   "words": 557,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 3064,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to GHMC",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc_igs",
+   "label": "GHMC grievances",
+   "city": "hyderabad",
+   "url": "https://igs.ghmc.gov.in/",
+   "status": "audited",
+   "rules": 3,
+   "nodes": 6,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 19,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 10,
+   "inputs": 3,
+   "words": 89,
+   "auth": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 437,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Grievances",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc_ptax_search",
+   "label": "GHMC property tax search",
+   "city": "hyderabad",
+   "url": "https://www.ghmc.gov.in/Search.aspx",
+   "status": "audited",
+   "rules": 8,
+   "nodes": 23,
+   "severe": [
+    "aria-allowed-attr",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label",
+    "link-name",
+    "select-name",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-allowed-attr",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label",
+    "link-name",
+    "select-name",
+    "target-size"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 19,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 13,
+   "inputs": 7,
+   "words": 156,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 982,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to GHMC",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc_ptax_page",
+   "label": "GHMC property tax information",
+   "city": "hyderabad",
+   "url": "https://www.ghmc.gov.in/PropertyTax.aspx",
+   "status": "audited",
+   "rules": 6,
+   "nodes": 19,
+   "severe": [
+    "aria-allowed-attr",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-allowed-attr",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "target-size"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 18,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 13,
+   "inputs": 1,
+   "words": 152,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 761,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Property Tax",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc_bnd",
+   "label": "GHMC births and deaths sign-in (labelled Hospitals Login)",
+   "city": "hyderabad",
+   "url": "https://bnd.ghmc.gov.in/",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 9,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "Telugu",
+    "Hindi",
+    "Google Translate widget"
+   ],
+   "focusRing": 19,
+   "overflow": true,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 8,
+   "inputs": 5,
+   "words": 90,
+   "auth": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 434,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Birth & Death Login",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc_bnd_status",
+   "label": "GHMC application status",
+   "city": "hyderabad",
+   "url": "https://bnd.ghmc.gov.in/KnowYourApplicationStatus.aspx",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 11,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "label",
+    "listitem"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "label",
+    "listitem"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 11,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 1,
+   "inputs": 6,
+   "words": 25,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 184,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Health",
+   "retried": false
+  },
+  {
+   "id": "hyd_ghmc_howdoi",
+   "label": "GHMC 'How do I' guide",
+   "city": "hyderabad",
+   "url": "https://ghmc.gov.in/howdoi.aspx",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 24,
+   "severe": [
+    "aria-allowed-attr",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-in-text-block",
+    "link-name",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-allowed-attr",
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-in-text-block",
+    "link-name",
+    "target-size"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 19,
+   "overflow": true,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 18,
+   "inputs": 1,
+   "words": 865,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 4158,
+    "kannada": 0,
+    "telugu": 24,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to GHMC",
+   "retried": false
+  },
+  {
+   "id": "hyd_meeseva",
+   "label": "MeeSeva",
+   "city": "hyderabad",
+   "url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 16,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "label",
+    "link-name"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "label",
+    "link-name"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Telugu"
+   ],
+   "focusRing": 15,
+   "overflow": false,
+   "skipLink": true,
+   "zoomBlocked": false,
+   "links": 47,
+   "inputs": 5,
+   "words": 234,
+   "auth": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1203,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to Telangana MeeSeva Portal...",
+   "retried": false
+  },
+  {
+   "id": "hyd_hmwssb",
+   "label": "HMWSSB water board",
+   "city": "hyderabad",
+   "url": "https://www.hyderabadwater.gov.in/en/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 30,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "frame-title",
+    "image-alt",
+    "link-name",
+    "marquee",
+    "target-size"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "frame-title",
+    "image-alt",
+    "link-name",
+    "marquee",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 46,
+   "inputs": 0,
+   "words": 226,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1297,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Hyderabad Metropolitan Water Supply and Sewerage Board",
+   "retried": false
+  },
+  {
+   "id": "hyd_hmwssb_grievance",
+   "label": "HMWSSB register grievance",
+   "city": "hyderabad",
+   "url": "https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/register-grievances",
+   "status": "audited",
+   "rules": 3,
+   "nodes": 6,
+   "severe": [
+    "color-contrast",
+    "frame-title",
+    "link-name"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "frame-title",
+    "link-name"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English"
+   ],
+   "focusRing": 13,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 25,
+   "inputs": 0,
+   "words": 94,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 538,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Register Grievances :: Hyderabad Metropolitan Water Supply and Sewerage Board",
+   "retried": false
+  },
+  {
+   "id": "hyd_tgsrtc",
+   "label": "TGSRTC buses",
+   "city": "hyderabad",
+   "url": "https://www.tgsrtc.telangana.gov.in/",
+   "status": "audited",
+   "rules": 2,
+   "nodes": 2,
+   "severe": [
+    "aria-hidden-focus",
+    "html-has-lang"
+   ],
+   "all_rules": [
+    "aria-hidden-focus",
+    "html-has-lang"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 18,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 26,
+   "inputs": 0,
+   "words": 617,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 3355,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "TGSRTC",
+   "retried": false
+  },
+  {
+   "id": "hyd_ltmetro",
+   "label": "Hyderabad Metro (L&T)",
+   "city": "hyderabad",
+   "url": "https://ltmetro.com/",
+   "status": "audited",
+   "rules": 7,
+   "nodes": 27,
+   "severe": [
+    "aria-command-name",
+    "color-contrast",
+    "frame-title",
+    "image-alt",
+    "link-name",
+    "nested-interactive",
+    "target-size"
+   ],
+   "all_rules": [
+    "aria-command-name",
+    "color-contrast",
+    "frame-title",
+    "image-alt",
+    "link-name",
+    "nested-interactive",
+    "target-size"
+   ],
+   "htmlLang": "en-US",
+   "languages": [],
+   "focusRing": 16,
+   "overflow": true,
+   "skipLink": true,
+   "zoomBlocked": false,
+   "links": 92,
+   "inputs": 0,
+   "words": 375,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1879,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Hyderabad Metro Rail | Best Metro Rail Services",
+   "retried": false
+  },
+  {
+   "id": "hyd_health",
+   "label": "Telangana Health department",
+   "city": "hyderabad",
+   "url": "https://health.telangana.gov.in/",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 26,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "list"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "list"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 0,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 24,
+   "inputs": 0,
+   "words": 64,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 344,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Department of Health, Medical & Family Welfare, Government of Telangana",
+   "retried": false
+  },
+  {
+   "id": "hyd_chfw",
+   "label": "Telangana Family Welfare",
+   "city": "hyderabad",
+   "url": "https://chfw.telangana.gov.in/home.do",
+   "status": "audited",
+   "rules": 6,
+   "nodes": 19,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "marquee",
+    "target-size"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "marquee",
+    "target-size"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 11,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 55,
+   "inputs": 0,
+   "words": 427,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 2199,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Commissionerate of Health and Family Welfare",
+   "retried": false
+  },
+  {
+   "id": "hyd_epds",
+   "label": "Telangana ePDS",
+   "city": "hyderabad",
+   "url": "https://epds.telangana.gov.in/FoodSecurityAct/",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 13,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label",
+    "marquee"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label",
+    "marquee"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 19,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 12,
+   "inputs": 6,
+   "words": 115,
+   "auth": {
+    "passwordField": true,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 608,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "FOOD SECURITY ACT",
+   "retried": false
+  },
+  {
+   "id": "hyd_civilsupplies",
+   "label": "Telangana Civil Supplies",
+   "city": "hyderabad",
+   "url": "https://civilsupplies.telangana.gov.in/",
+   "status": "audited",
+   "rules": 6,
+   "nodes": 16,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "marquee",
+    "meta-viewport"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "link-name",
+    "marquee",
+    "meta-viewport"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "English"
+   ],
+   "focusRing": 0,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": true,
+   "links": 30,
+   "inputs": 0,
+   "words": 222,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1125,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Civil Supplies Department -Telangana - India",
+   "retried": false
+  },
+  {
+   "id": "national_digilocker",
+   "label": "DigiLocker",
+   "city": "national",
+   "url": "https://www.digilocker.gov.in/",
+   "status": "audited",
+   "rules": 0,
+   "nodes": 0,
+   "severe": [],
+   "all_rules": [],
+   "htmlLang": "en",
+   "languages": [
+    "English"
+   ],
+   "focusRing": 6,
+   "overflow": false,
+   "skipLink": true,
+   "zoomBlocked": false,
+   "links": 76,
+   "inputs": 0,
+   "words": 465,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 2761,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "DigiLocker | Access, Share & Verify Digital Documents",
+   "retried": false
+  },
+  {
+   "id": "hyd_pt_pay",
+   "label": "GHMC property tax payment form",
+   "city": "hyderabad",
+   "url": "https://onlinepayments.ghmc.gov.in/",
+   "status": "audited",
+   "rules": 3,
+   "nodes": 7,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "Kannada",
+    "Telugu",
+    "Urdu",
+    "Tamil",
+    "Hindi",
+    "Google Translate widget"
+   ],
+   "focusRing": 18,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 8,
+   "inputs": 2,
+   "words": 93,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 448,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to Core Urban Region Economy (CURE)",
+   "retried": false
+  },
+  {
+   "id": "hyd_griev_otp",
+   "label": "GHMC lodge grievance (OTP step)",
+   "city": "hyderabad",
+   "url": "https://igs.ghmc.gov.in/operator/send_otp_mobile",
+   "status": "audited",
+   "rules": 1,
+   "nodes": 1,
+   "severe": [
+    "color-contrast"
+   ],
+   "all_rules": [
+    "color-contrast"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "Google Translate widget"
+   ],
+   "focusRing": 16,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 1,
+   "inputs": 1,
+   "words": 7,
+   "auth": {
+    "passwordField": false,
+    "otpMention": true,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 30,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to IGS",
+   "retried": false
+  },
+  {
+   "id": "blr_sahaaya",
+   "label": "Sahaaya complaints (bbmp.sahaaya.in)",
+   "city": "bengaluru",
+   "url": "https://bbmp.sahaaya.in/",
+   "status": "failed",
+   "error": "net::ERR_CERT_COMMON_NAME_INVALID"
+  },
+  {
+   "id": "hyd_birth",
+   "label": "GHMC birth certificate search",
+   "city": "hyderabad",
+   "url": "https://bnd.ghmc.gov.in/Birth_Certificate.aspx",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 9,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "listitem"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "listitem"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 7,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 1,
+   "inputs": 3,
+   "words": 12,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 61,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "GHMC",
+   "retried": false
+  },
+  {
+   "id": "hyd_death",
+   "label": "GHMC death certificate search",
+   "city": "hyderabad",
+   "url": "https://bnd.ghmc.gov.in/Death_Certificate.aspx",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 9,
+   "severe": [
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "listitem"
+   ],
+   "all_rules": [
+    "button-name",
+    "color-contrast",
+    "html-has-lang",
+    "listitem"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 7,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 1,
+   "inputs": 3,
+   "words": 12,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 61,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "GHMC",
+   "retried": false
+  },
+  {
+   "id": "blr_ejanma_dl",
+   "label": "e-Janma download certificate",
+   "city": "bengaluru",
+   "url": "https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx",
+   "status": "audited",
+   "rules": 2,
+   "nodes": 4,
+   "severe": [
+    "color-contrast",
+    "target-size"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "target-size"
+   ],
+   "htmlLang": "en",
+   "languages": [
+    "English",
+    "Hindi",
+    "Bhashini widget"
+   ],
+   "focusRing": 20,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 43,
+   "inputs": 2,
+   "words": 275,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": true,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1361,
+    "kannada": 150,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "BIRTHS AND DEATHS | OFFICE OF THE CHIEF REGISTRAR OF BIRTHS AND DEATHS",
+   "retried": false
+  },
+  {
+   "id": "hyd_trade_new",
+   "label": "GHMC new trade licence application",
+   "city": "hyderabad",
+   "url": "https://sa.ghmc.gov.in/TradeNewApplicationEntry.aspx",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 7,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "English",
+    "Telugu",
+    "Urdu",
+    "Hindi",
+    "Google Translate widget"
+   ],
+   "focusRing": 19,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 5,
+   "inputs": 2,
+   "words": 46,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 213,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Welcome to Core Urban Region Economy (CURE)",
+   "retried": false
+  },
+  {
+   "id": "blr_trade_apply",
+   "label": "New trade licence sign-in (Seva Sindhu route)",
+   "city": "bengaluru",
+   "url": "https://sevaone.karnataka.gov.in/services/loginWindow.do",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 14,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "label",
+    "link-in-text-block",
+    "link-name"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "label",
+    "link-in-text-block",
+    "link-name"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 10,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 8,
+   "inputs": 4,
+   "words": 96,
+   "auth": {
+    "passwordField": true,
+    "otpMention": true,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 478,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Service Plus",
+   "retried": false
+  },
+  {
+   "id": "hyd_build_app",
+   "label": "BuildNow application portal",
+   "city": "hyderabad",
+   "url": "https://app.buildnow.telangana.gov.in/login",
+   "status": "audited",
+   "rules": 5,
+   "nodes": 7,
+   "severe": [
+    "aria-hidden-body",
+    "aria-hidden-focus",
+    "color-contrast",
+    "link-in-text-block",
+    "meta-viewport"
+   ],
+   "all_rules": [
+    "aria-hidden-body",
+    "aria-hidden-focus",
+    "color-contrast",
+    "link-in-text-block",
+    "meta-viewport"
+   ],
+   "htmlLang": "en",
+   "languages": [],
+   "focusRing": 16,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": true,
+   "links": 7,
+   "inputs": 1,
+   "words": 312,
+   "auth": {
+    "passwordField": false,
+    "otpMention": true,
+    "loginMention": true,
+    "captcha": true,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 1577,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Application Portal",
+   "retried": false
+  },
+  {
+   "id": "blr_bpas",
+   "label": "Building plan approval sign-in",
+   "city": "bengaluru",
+   "url": "https://bpas.bbmpgov.in/BPAMSClient4/NewDefault1.aspx",
+   "status": "audited",
+   "rules": 1,
+   "nodes": 1,
+   "severe": [
+    "html-has-lang"
+   ],
+   "all_rules": [
+    "html-has-lang"
+   ],
+   "htmlLang": null,
+   "languages": [],
+   "focusRing": 19,
+   "overflow": true,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 0,
+   "inputs": 0,
+   "words": 1,
+   "auth": {
+    "passwordField": false,
+    "otpMention": false,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 0,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "Greater Bengaluru Authority",
+   "retried": false
+  },
+  {
+   "id": "hyd_pet",
+   "label": "GHMC pet licence sign-in",
+   "city": "hyderabad",
+   "url": "https://petanimal.ghmc.gov.in/Login/Login",
+   "status": "audited",
+   "rules": 4,
+   "nodes": 4,
+   "severe": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label"
+   ],
+   "all_rules": [
+    "color-contrast",
+    "html-has-lang",
+    "image-alt",
+    "label"
+   ],
+   "htmlLang": null,
+   "languages": [
+    "Google Translate widget"
+   ],
+   "focusRing": 14,
+   "overflow": false,
+   "skipLink": false,
+   "zoomBlocked": false,
+   "links": 0,
+   "inputs": 1,
+   "words": 32,
+   "auth": {
+    "passwordField": false,
+    "otpMention": true,
+    "loginMention": false,
+    "captcha": false,
+    "aadhaarMention": false
+   },
+   "scripts": {
+    "latin": 183,
+    "kannada": 0,
+    "telugu": 0,
+    "arabic": 0,
+    "devanagari": 0
+   },
+   "httpStatus": 200,
+   "title": "CURE-Pet Animals",
+   "retried": false
+  }
+ ],
+ "language_reach": {
+  "bengaluru": [
+   {
+    "language": "Kannada",
+    "pct": 42.1,
+    "pages": 9
+   },
+   {
+    "language": "Tamil",
+    "pct": 16.3,
+    "pages": 0
+   },
+   {
+    "language": "Telugu",
+    "pct": 13.7,
+    "pages": 0
+   },
+   {
+    "language": "Urdu",
+    "pct": 13.0,
+    "pages": 0
+   },
+   {
+    "language": "Hindi",
+    "pct": 5.6,
+    "pages": 2
+   }
+  ],
+  "hyderabad": [
+   {
+    "language": "Telugu",
+    "pct": 58.5,
+    "pages": 4
+   },
+   {
+    "language": "Urdu",
+    "pct": 29.5,
+    "pages": 2
+   },
+   {
+    "language": "Hindi",
+    "pct": 6.4,
+    "pages": 3
+   },
+   {
+    "language": "Marathi",
+    "pct": 1.5,
+    "pages": 0
+   },
+   {
+    "language": "Tamil",
+    "pct": 1.1,
+    "pages": 1
+   }
+  ]
+ },
+ "widgets": {
+  "bengaluru": 3,
+  "hyderabad": 5
+ },
+ "summary": {
+  "bengaluru": {
+   "pages": 16,
+   "median_rules": 4,
+   "median_nodes": 18,
+   "contrast_pages": 13,
+   "skip": 3
+  },
+  "hyderabad": {
+   "pages": 23,
+   "median_rules": 5,
+   "median_nodes": 11,
+   "contrast_pages": 22,
+   "skip": 2
+  }
+ },
+ "sites": {
+  "bengaluru": {
+   "sites": 14,
+   "missing_lang_sites": 4,
+   "contrast_sites": 12
+  },
+  "hyderabad": {
+   "sites": 10,
+   "missing_lang_sites": 6,
+   "contrast_sites": 9
+  }
+ },
+ "missing_lang": {
+  "bengaluru": 4,
+  "hyderabad": 17
+ },
+ "overflow": {
+  "bengaluru": 2,
+  "hyderabad": 3
+ },
+ "no_focus_ring": {
+  "bengaluru": [
+   "Namma Metro (BMRCL)",
+   "Seva Sindhu"
+  ],
+  "hyderabad": [
+   "Telangana Health department",
+   "Telangana Civil Supplies"
+  ]
+ }
+}

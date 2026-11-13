@@ -1,0 +1,506 @@
+{
+ "spatial": {
+  "bengaluru": {
+   "grid_cells": 2868,
+   "slum_points_in_study_area": 1054,
+   "study_area_km2": 716.3,
+   "wards": 369,
+   "measures": {
+    "primary_health": {
+     "facilities_used": 378,
+     "in_study_area": 378,
+     "city_grid": {
+      "n": 2868,
+      "median_km": 0.73,
+      "p90_km": 1.72,
+      "share_within_1km": 67.6,
+      "share_within_500m": 30.1
+     },
+     "slum_points": {
+      "n": 1054,
+      "median_km": 0.43,
+      "p90_km": 1.25,
+      "share_within_1km": 84.4,
+      "share_within_500m": 56.5
+     }
+    },
+    "osm_health": {
+     "facilities_used": 2210,
+     "in_study_area": 2082,
+     "city_grid": {
+      "n": 2868,
+      "median_km": 0.47,
+      "p90_km": 1.23,
+      "share_within_1km": 83.1,
+      "share_within_500m": 52.5
+     },
+     "slum_points": {
+      "n": 1054,
+      "median_km": 0.36,
+      "p90_km": 0.88,
+      "share_within_1km": 93.3,
+      "share_within_500m": 67.6
+     }
+    },
+    "bus": {
+     "facilities_used": 9562,
+     "in_study_area": 4370,
+     "city_grid": {
+      "n": 2868,
+      "median_km": 0.28,
+      "p90_km": 0.6,
+      "share_within_1km": 99.4,
+      "share_within_500m": 82.0
+     },
+     "slum_points": {
+      "n": 1054,
+      "median_km": 0.21,
+      "p90_km": 0.46,
+      "share_within_1km": 99.6,
+      "share_within_500m": 92.2
+     }
+    },
+    "metro": {
+     "facilities_used": 87,
+     "in_study_area": 79,
+     "city_grid": {
+      "n": 2868,
+      "median_km": 2.32,
+      "p90_km": 7.21,
+      "share_within_1km": 22.5,
+      "share_within_500m": 7.9
+     },
+     "slum_points": {
+      "n": 1054,
+      "median_km": 1.79,
+      "p90_km": 6.39,
+      "share_within_1km": 27.5,
+      "share_within_500m": 7.8
+     }
+    },
+    "toilets": {
+     "facilities_used": 613,
+     "in_study_area": 613,
+     "city_grid": {
+      "n": 2868,
+      "median_km": 0.84,
+      "p90_km": 2.28,
+      "share_within_1km": 58.8,
+      "share_within_500m": 29.5
+     },
+     "slum_points": {
+      "n": 1054,
+      "median_km": 0.58,
+      "p90_km": 1.54,
+      "share_within_1km": 74.4,
+      "share_within_500m": 44.2
+     }
+    },
+    "osm_toilets": {
+     "facilities_used": 509,
+     "in_study_area": 485,
+     "city_grid": {
+      "n": 2868,
+      "median_km": 1.05,
+      "p90_km": 3.06,
+      "share_within_1km": 47.6,
+      "share_within_500m": 22.7
+     },
+     "slum_points": {
+      "n": 1054,
+      "median_km": 0.83,
+      "p90_km": 2.43,
+      "share_within_1km": 57.5,
+      "share_within_500m": 29.5
+     }
+    }
+   },
+   "wards_with_no_primary_health": 117
+  },
+  "hyderabad": {
+   "grid_cells": 2454,
+   "slum_points_in_study_area": 1338,
+   "study_area_km2": 615.8,
+   "wards": 155,
+   "measures": {
+    "primary_health": {
+     "facilities_used": 324,
+     "in_study_area": 307,
+     "city_grid": {
+      "n": 2454,
+      "median_km": 0.78,
+      "p90_km": 1.86,
+      "share_within_1km": 62.8,
+      "share_within_500m": 28.2
+     },
+     "slum_points": {
+      "n": 1338,
+      "median_km": 0.41,
+      "p90_km": 1.0,
+      "share_within_1km": 90.1,
+      "share_within_500m": 62.6
+     }
+    },
+    "osm_health": {
+     "facilities_used": 1476,
+     "in_study_area": 1288,
+     "city_grid": {
+      "n": 2454,
+      "median_km": 0.54,
+      "p90_km": 1.45,
+      "share_within_1km": 76.7,
+      "share_within_500m": 46.3
+     },
+     "slum_points": {
+      "n": 1338,
+      "median_km": 0.33,
+      "p90_km": 0.82,
+      "share_within_1km": 95.4,
+      "share_within_500m": 72.9
+     }
+    },
+    "bus": {
+     "facilities_used": 4427,
+     "in_study_area": 1832,
+     "city_grid": {
+      "n": 2454,
+      "median_km": 0.38,
+      "p90_km": 0.85,
+      "share_within_1km": 94.6,
+      "share_within_500m": 65.6
+     },
+     "slum_points": {
+      "n": 1338,
+      "median_km": 0.29,
+      "p90_km": 0.62,
+      "share_within_1km": 98.8,
+      "share_within_500m": 82.8
+     }
+    },
+    "metro": {
+     "facilities_used": 57,
+     "in_study_area": 53,
+     "city_grid": {
+      "n": 2454,
+      "median_km": 3.53,
+      "p90_km": 8.88,
+      "share_within_1km": 16.6,
+      "share_within_500m": 6.4
+     },
+     "slum_points": {
+      "n": 1338,
+      "median_km": 1.9,
+      "p90_km": 5.93,
+      "share_within_1km": 26.1,
+      "share_within_500m": 9.7
+     }
+    },
+    "toilets": {
+     "facilities_used": 567,
+     "in_study_area": 565,
+     "city_grid": {
+      "n": 2454,
+      "median_km": 0.72,
+      "p90_km": 1.98,
+      "share_within_1km": 65.8,
+      "share_within_500m": 33.0
+     },
+     "slum_points": {
+      "n": 1338,
+      "median_km": 0.51,
+      "p90_km": 1.17,
+      "share_within_1km": 83.6,
+      "share_within_500m": 49.0
+     }
+    },
+    "osm_toilets": {
+     "facilities_used": 98,
+     "in_study_area": 76,
+     "city_grid": {
+      "n": 2454,
+      "median_km": 2.01,
+      "p90_km": 4.63,
+      "share_within_1km": 20.7,
+      "share_within_500m": 6.8
+     },
+     "slum_points": {
+      "n": 1338,
+      "median_km": 1.78,
+      "p90_km": 3.72,
+      "share_within_1km": 25.5,
+      "share_within_500m": 8.7
+     }
+    }
+   },
+   "wards_with_no_primary_health": 24
+  }
+ },
+ "census": {
+  "disability": {
+   "hyderabad": {
+    "area": "Hyderabad UA",
+    "total": 294072,
+    "by_type": {
+     "In seeing": 66930,
+     "In hearing": 70412,
+     "In speech": 28077,
+     "In movement": 20348,
+     "Mental retardation (Census term)": 11119,
+     "Mental illness": 3235,
+     "Any other": 83257,
+     "Multiple disability": 10694
+    }
+   },
+   "bengaluru": {
+    "area": "Bruhat Bangalore UA",
+    "total": 251561,
+    "by_type": {
+     "In seeing": 79696,
+     "In hearing": 61691,
+     "In speech": 10140,
+     "In movement": 16725,
+     "Mental retardation (Census term)": 13789,
+     "Mental illness": 2407,
+     "Any other": 57837,
+     "Multiple disability": 9276
+    }
+   }
+  },
+  "language": {
+   "hyderabad": {
+    "area": "GHMC (M Corp. + OG) (all parts summed)",
+    "total": 6993262,
+    "top": [
+     {
+      "language": "Telugu",
+      "count": 4093615,
+      "pct": 58.5
+     },
+     {
+      "language": "Urdu",
+      "count": 2060573,
+      "pct": 29.5
+     },
+     {
+      "language": "Hindi",
+      "count": 444456,
+      "pct": 6.4
+     },
+     {
+      "language": "Marathi",
+      "count": 107377,
+      "pct": 1.5
+     },
+     {
+      "language": "Tamil",
+      "count": 75910,
+      "pct": 1.1
+     },
+     {
+      "language": "Kannada",
+      "count": 65520,
+      "pct": 0.9
+     },
+     {
+      "language": "Gujarati",
+      "count": 32066,
+      "pct": 0.5
+     },
+     {
+      "language": "Malayalam",
+      "count": 26560,
+      "pct": 0.4
+     }
+    ]
+   },
+   "bengaluru": {
+    "area": "BBMP (M Corp. + OG) (all parts summed)",
+    "total": 8495492,
+    "top": [
+     {
+      "language": "Kannada",
+      "count": 3574226,
+      "pct": 42.1
+     },
+     {
+      "language": "Tamil",
+      "count": 1388305,
+      "pct": 16.3
+     },
+     {
+      "language": "Telugu",
+      "count": 1166338,
+      "pct": 13.7
+     },
+     {
+      "language": "Urdu",
+      "count": 1104124,
+      "pct": 13.0
+     },
+     {
+      "language": "Hindi",
+      "count": 476673,
+      "pct": 5.6
+     },
+     {
+      "language": "Malayalam",
+      "count": 268780,
+      "pct": 3.2
+     },
+     {
+      "language": "Marathi",
+      "count": 174451,
+      "pct": 2.1
+     },
+     {
+      "language": "Konkani",
+      "count": 63088,
+      "pct": 0.7
+     }
+    ]
+   }
+  },
+  "literacy": {
+   "bengaluru": {
+    "area": "BBMP (M Corp. + OG)",
+    "population": 8495492,
+    "households": 2114776,
+    "literacy_7plus_pct": 88.7,
+    "female_literacy_7plus_pct": 85.4,
+    "male_literacy_7plus_pct": 91.7,
+    "non_literate_7plus": 857287
+   },
+   "hyderabad": {
+    "area": "GHMC (M Corp. + OG)",
+    "population": 6993262,
+    "households": 1583908,
+    "literacy_7plus_pct": 82.9,
+    "female_literacy_7plus_pct": 78.6,
+    "male_literacy_7plus_pct": 87.1,
+    "non_literate_7plus": 1051339
+   }
+  },
+  "digital_assets": {
+   "bengaluru": {
+    "area": "Bangalore district, urban households",
+    "computer_with_internet_pct": 19.6,
+    "computer_no_internet_pct": 15.8,
+    "mobile_only_pct": 67.2,
+    "landline_and_mobile_pct": 16.2,
+    "no_assets_pct": 2.2
+   },
+   "hyderabad": {
+    "area": "Hyderabad district, urban households",
+    "computer_with_internet_pct": 16.9,
+    "computer_no_internet_pct": 14.3,
+    "mobile_only_pct": 66.2,
+    "landline_and_mobile_pct": 14,
+    "no_assets_pct": 3.1
+   }
+  },
+  "slum_pca": {
+   "hyderabad": {
+    "area": "GHMC (M Corp. + OG) (Part)",
+    "slum_population": 2287014,
+    "slum_households": 507396,
+    "slum_literacy_7plus_pct": 76.8
+   },
+   "bengaluru": {
+    "area": "BBMP (M Corp. + OG) (Part)",
+    "slum_population": 712801,
+    "slum_households": 165341,
+    "slum_literacy_7plus_pct": 78.3
+   }
+  }
+ },
+ "osm_access": {
+  "bengaluru": {
+   "metro": {
+    "total": 87,
+    "yes": 81,
+    "limited": 0,
+    "no": 0,
+    "not_tagged": 6
+   },
+   "osm_hospital": {
+    "total": 1159,
+    "yes": 78,
+    "limited": 15,
+    "no": 4,
+    "not_tagged": 1062
+   },
+   "osm_clinic": {
+    "total": 1052,
+    "yes": 12,
+    "limited": 2,
+    "no": 18,
+    "not_tagged": 1020
+   },
+   "osm_toilets": {
+    "total": 509,
+    "yes": 17,
+    "limited": 16,
+    "no": 41,
+    "not_tagged": 435
+   },
+   "osm_post": {
+    "total": 203,
+    "yes": 10,
+    "limited": 7,
+    "no": 12,
+    "not_tagged": 174
+   },
+   "osm_gov": {
+    "total": 422,
+    "yes": 5,
+    "limited": 2,
+    "no": 8,
+    "not_tagged": 407
+   }
+  },
+  "hyderabad": {
+   "metro": {
+    "total": 63,
+    "yes": 27,
+    "limited": 0,
+    "no": 0,
+    "not_tagged": 36
+   },
+   "osm_hospital": {
+    "total": 1098,
+    "yes": 13,
+    "limited": 1,
+    "no": 0,
+    "not_tagged": 1084
+   },
+   "osm_clinic": {
+    "total": 379,
+    "yes": 0,
+    "limited": 0,
+    "no": 0,
+    "not_tagged": 379
+   },
+   "osm_toilets": {
+    "total": 101,
+    "yes": 4,
+    "limited": 3,
+    "no": 4,
+    "not_tagged": 90
+   },
+   "osm_post": {
+    "total": 67,
+    "yes": 2,
+    "limited": 0,
+    "no": 0,
+    "not_tagged": 65
+   },
+   "osm_gov": {
+    "total": 200,
+    "yes": 0,
+    "limited": 1,
+    "no": 2,
+    "not_tagged": 197
+   }
+  }
+ }
+}

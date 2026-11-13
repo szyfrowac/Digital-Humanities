@@ -1,0 +1,152 @@
+{
+ "personas": [
+  {
+   "name": "A screen-reader user filing a complaint",
+   "short": "Visual access",
+   "summary": "A hypothetical blind resident who uses a screen reader on a phone and wants to report a blocked drain and follow it up.",
+   "stages": [
+    {
+     "stage": "Discovery",
+     "friction": "Finding the correct body may be hard after the reorganisation, and unnamed links would be read aloud only as 'link'.",
+     "evidence": "Unnamed links or buttons on 56% of audited Bengaluru pages and 65% in Hyderabad.",
+     "measured": true
+    },
+    {
+     "stage": "Navigation",
+     "friction": "An undeclared page language can make a screen reader use the wrong pronunciation, and images without alternatives leave gaps.",
+     "evidence": "The page language is undeclared on 4 of 16 Bengaluru pages and 17 of 23 Hyderabad pages.",
+     "measured": true
+    },
+    {
+     "stage": "Authentication",
+     "friction": "A visual CAPTCHA could end the attempt if no audio alternative works.",
+     "evidence": "CAPTCHA signals on 7 of 40 audited pages. Audio alternatives were not checked.",
+     "measured": true
+    },
+    {
+     "stage": "Form completion",
+     "friction": "A field with no label is announced without its purpose.",
+     "evidence": "Unlabelled form fields on 25% of audited Bengaluru pages and 26% in Hyderabad.",
+     "measured": true
+    },
+    {
+     "stage": "Submission",
+     "friction": "An error may appear only visually, without being announced.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Tracking",
+     "friction": "Status tables and references may be hard to find again by ear.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Service completion",
+     "friction": "There may be no accessible way to confirm the drain was actually cleared.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    }
+   ]
+  },
+  {
+   "name": "A resident who reads Urdu, with limited English and Telugu",
+   "short": "Language",
+   "summary": "A hypothetical Hyderabad resident who reads Urdu confidently, has limited English and Telugu, and wants to check a ration card application.",
+   "stages": [
+    {
+     "stage": "Discovery",
+     "friction": "Search results and official names may appear only in English or Telugu.",
+     "evidence": "Urdu is the mother tongue of 29.5% of GHMC residents in Census 2011.",
+     "measured": true
+    },
+    {
+     "stage": "Navigation",
+     "friction": "This resident needs a language control they can recognise, and any Urdu option we found sits on a page with a translation widget.",
+     "evidence": "Urdu option on 2 of 23 audited Hyderabad pages. Translation widgets appeared on 5, and their output was not assessed.",
+     "measured": true
+    },
+    {
+     "stage": "Authentication",
+     "friction": "One-time passwords and error messages may arrive in another language.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Form completion",
+     "friction": "Names and addresses may need English or Telugu spellings that differ from the resident's documents.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Submission",
+     "friction": "A paid intermediary may be needed, which shifts cost and privacy risk onto the resident.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Tracking",
+     "friction": "Status terms may be unfamiliar even after machine translation.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Service completion",
+     "friction": "The counter staff may or may not be able to help in Urdu.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    }
+   ]
+  },
+  {
+   "name": "An older resident who finds complex systems hard to follow",
+   "short": "Cognitive and usability",
+   "summary": "A hypothetical older Bengaluru resident with a smartphone and some memory difficulties, who has received a property tax demand and is unsure what to do.",
+   "stages": [
+    {
+     "stage": "Discovery",
+     "friction": "The first job is working out which of several bodies and addresses is responsible, and old names persist.",
+     "evidence": "The property tax portal still uses a 'bbmptax' address after the BBMP was replaced. Reorganisation reported in September 2025.",
+     "measured": true
+    },
+    {
+     "stage": "Navigation",
+     "friction": "A very long landing page presents many choices before the task can begin.",
+     "evidence": "Median visible links on audited pages: 63 in Bengaluru and 13 in Hyderabad. Link count is a rough proxy, not a usability score.",
+     "measured": true
+    },
+    {
+     "stage": "Authentication",
+     "friction": "OTPs and timeouts create pressure, and losing access to an old phone number can block the task.",
+     "evidence": "The Bengaluru tax portal has a dedicated 'Change Mobile Number (Old number unavailable)' route, which suggests that this problem occurs.",
+     "measured": true
+    },
+    {
+     "stage": "Form completion",
+     "friction": "Legal terms and property identifiers may require documents that are hard to find.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Submission",
+     "friction": "It may be unclear whether a payment succeeded.",
+     "evidence": "The portal has separate 'Payment Status' and 'Acknowledgement Print' routes; we did not test how clear they are.",
+     "measured": true
+    },
+    {
+     "stage": "Tracking",
+     "friction": "Several reference numbers have to be remembered across systems.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    },
+    {
+     "stage": "Service completion",
+     "friction": "Finishing may rely on a relative or agent, which is invisible in official records.",
+     "evidence": "Fieldwork question. We have not observed this step.",
+     "measured": false
+    }
+   ]
+  }
+ ],
+ "language_note": "In Census 2011, Kannada was the mother tongue of 42.1% of BBMP-area residents, followed by Tamil (16.3%) and Telugu (13.7%). In the GHMC area it was Telugu (58.5%) and Urdu (29.5%). Mother tongue does not show which scripts a person reads, and many residents are multilingual. These figures show which languages are worth testing, not who is excluded."
+}

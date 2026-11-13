@@ -1,0 +1,122 @@
+[
+ {
+  "id": "blr_gba",
+  "url": "https://gba.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_gba_clinics",
+  "url": "https://gba.karnataka.gov.in/polio/"
+ },
+ {
+  "id": "blr_ptax",
+  "url": "https://bbmptax.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_ejanma",
+  "url": "https://ejanma.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_nadakacheri",
+  "url": "https://nadakacheri.karnataka.gov.in/ajsk"
+ },
+ {
+  "id": "blr_bwssb",
+  "url": "https://bwssb.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_bmtc",
+  "url": "https://mybmtc.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_bmrc",
+  "url": "https://english.bmrc.co.in/"
+ },
+ {
+  "id": "blr_hfw",
+  "url": "https://hfwcom.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_bswml",
+  "url": "https://bswml.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_ahara",
+  "url": "https://ahara.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_sevasindhu",
+  "url": "https://sevasindhu.karnataka.gov.in/"
+ },
+ {
+  "id": "blr_sakala",
+  "url": "https://sakala.kar.nic.in/"
+ },
+ {
+  "id": "hyd_ghmc",
+  "url": "https://www.ghmc.gov.in/"
+ },
+ {
+  "id": "hyd_ghmc_igs",
+  "url": "https://igs.ghmc.gov.in/"
+ },
+ {
+  "id": "hyd_ghmc_ptax_search",
+  "url": "https://www.ghmc.gov.in/Search.aspx"
+ },
+ {
+  "id": "hyd_ghmc_ptax_page",
+  "url": "https://www.ghmc.gov.in/PropertyTax.aspx"
+ },
+ {
+  "id": "hyd_ghmc_bnd",
+  "url": "https://bnd.ghmc.gov.in/"
+ },
+ {
+  "id": "hyd_ghmc_bnd_status",
+  "url": "https://bnd.ghmc.gov.in/KnowYourApplicationStatus.aspx"
+ },
+ {
+  "id": "hyd_ghmc_howdoi",
+  "url": "https://ghmc.gov.in/howdoi.aspx"
+ },
+ {
+  "id": "hyd_meeseva",
+  "url": "https://ts.meeseva.telangana.gov.in/"
+ },
+ {
+  "id": "hyd_hmwssb",
+  "url": "https://www.hyderabadwater.gov.in/en/"
+ },
+ {
+  "id": "hyd_hmwssb_grievance",
+  "url": "https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/register-grievances"
+ },
+ {
+  "id": "hyd_tgsrtc",
+  "url": "https://www.tgsrtc.telangana.gov.in/"
+ },
+ {
+  "id": "hyd_ltmetro",
+  "url": "https://www.ltmetro.com/"
+ },
+ {
+  "id": "hyd_health",
+  "url": "https://health.telangana.gov.in/"
+ },
+ {
+  "id": "hyd_chfw",
+  "url": "https://chfw.telangana.gov.in/"
+ },
+ {
+  "id": "hyd_epds",
+  "url": "https://epds.telangana.gov.in/"
+ },
+ {
+  "id": "hyd_civilsupplies",
+  "url": "https://civilsupplies.telangana.gov.in/"
+ },
+ {
+  "id": "national_digilocker",
+  "url": "https://www.digilocker.gov.in/"
+ }
+]

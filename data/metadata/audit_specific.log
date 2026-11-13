@@ -1,0 +1,11 @@
+hyd_pt_pay audited 200 https://onlinepayments.ghmc.gov.in/ rules: 3 nodes: 7
+hyd_griev_otp audited 200 https://igs.ghmc.gov.in/operator/send_otp_mobile rules: 1 nodes: 1
+blr_sahaaya failed page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://bbmp.sahaaya.in/  rules: 0 nodes: 0
+hyd_birth audited 200 https://bnd.ghmc.gov.in/Birth_Certificate.aspx rules: 4 nodes: 9
+hyd_death audited 200 https://bnd.ghmc.gov.in/Death_Certificate.aspx rules: 4 nodes: 9
+blr_ejanma_dl audited 200 https://ejanma.karnataka.gov.in/frmDownloadCertificate.aspx rules: 2 nodes: 4
+hyd_trade_new audited 200 https://sa.ghmc.gov.in/TradeNewApplicationEntry.aspx rules: 4 nodes: 7
+blr_trade_apply audited 200 https://sevaone.karnataka.gov.in/services/loginWindow.do rules: 5 nodes: 14
+hyd_build_app audited 200 https://app.buildnow.telangana.gov.in/login rules: 5 nodes: 7
+blr_bpas audited 200 https://bpas.bbmpgov.in/BPAMSClient4/NewDefault1.aspx rules: 1 nodes: 1
+hyd_pet audited 200 https://petanimal.ghmc.gov.in/Login/Login rules: 4 nodes: 4
